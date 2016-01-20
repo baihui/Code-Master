@@ -13,10 +13,10 @@ The Code Master source code editor was built from the ground up for durability, 
 - Live Synthetic Compiling
 
 ## Completed
-- [ ] UI Foundation
-    - [ ] Basic Setup & Theme
-    - [ ] NavigationBar & Toolbar
-    - [ ] TableView for File Manager
+- [x] UI Foundation
+    - [x] Basic Setup & Theme
+    - [x] NavigationBar & Toolbar
+    - [x] TableView for File Manager
 - [x] File Manager
 	- [x] Create Files & Folders
 	- [x] Rename Files & Folders
