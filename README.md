@@ -36,6 +36,8 @@ The Code Master source code editor was built from the ground up for durability, 
 	- [ ] iCloud Drive
 	- [ ] Dropbox integration
 	- [ ] FTP integration
+- [ ] File Restoration
+	- [ ] Restore User Files from v4
 
 
 ## Known Errors
