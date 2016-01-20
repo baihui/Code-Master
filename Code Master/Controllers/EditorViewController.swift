@@ -58,7 +58,7 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
         
         // Share Button
         let settingsIcon: UIImage
-        let settingsImage = "Share"
+        let settingsImage = "Settings"
         settingsIcon = UIImage(named: settingsImage)!
         let settingsButton = UIButton()
         settingsButton.setImage(UIImage(named: "Share"), forState: .Normal)
