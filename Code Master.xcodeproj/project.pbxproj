@@ -69,7 +69,6 @@
 		4D25768B1C4AD27000AA7F95 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25762E1C4AD27000AA7F95 /* SettingsViewController.swift */; };
 		4D25768C1C4AD27000AA7F95 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D2576301C4AD27000AA7F95 /* Localizable.strings */; };
 		4D25768D1C4AD27000AA7F95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2576321C4AD27000AA7F95 /* Images.xcassets */; };
-		4D25768E1C4AD27000AA7F95 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2576331C4AD27000AA7F95 /* Info.plist */; };
 		4D25768F1C4AD27000AA7F95 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2576351C4AD27000AA7F95 /* Launch Screen.storyboard */; };
 		4D2576901C4AD27000AA7F95 /* LineNumberLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2576391C4AD27000AA7F95 /* LineNumberLayoutManager.m */; };
 		4D2576911C4AD27000AA7F95 /* LineNumberTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D25763B1C4AD27000AA7F95 /* LineNumberTextView.m */; };
@@ -519,7 +518,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tnantoka;
 				TargetAttributes = {
 					9B6E1E8C19E2EB2100C72D13 = {
@@ -593,7 +592,6 @@
 				4D2576941C4AD27000AA7F95 /* SourceCodePro-Regular.ttf in Resources */,
 				4D25766D1C4AD27000AA7F95 /* _skel.scss in Resources */,
 				4D25766E1C4AD27000AA7F95 /* _vars.scss in Resources */,
-				4D25768E1C4AD27000AA7F95 /* Info.plist in Resources */,
 				4D2576511C4AD27000AA7F95 /* jquery.scrollex.min.js in Resources */,
 				4D25764C1C4AD27000AA7F95 /* fontawesome-webfont.woff2 in Resources */,
 				4D25768D1C4AD27000AA7F95 /* Images.xcassets in Resources */,
