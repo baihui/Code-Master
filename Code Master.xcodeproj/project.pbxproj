@@ -76,6 +76,105 @@
 		4D2576931C4AD27000AA7F95 /* SettingsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25763E1C4AD27000AA7F95 /* SettingsForm.swift */; };
 		4D2576941C4AD27000AA7F95 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D25763F1C4AD27000AA7F95 /* SourceCodePro-Regular.ttf */; };
 		4D2576951C4AD27000AA7F95 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2576411C4AD27000AA7F95 /* EditorView.swift */; };
+		4D8D1E151C50540D00666EED /* ActionScript.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB11C50540D00666EED /* ActionScript.tmLanguage */; };
+		4D8D1E161C50540D00666EED /* AppleScript.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB21C50540D00666EED /* AppleScript.tmLanguage */; };
+		4D8D1E171C50540D00666EED /* ASP.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB31C50540D00666EED /* ASP.tmLanguage */; };
+		4D8D1E181C50540D00666EED /* Batch File.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB41C50540D00666EED /* Batch File.tmLanguage */; };
+		4D8D1E191C50540D00666EED /* Bibtex.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB51C50540D00666EED /* Bibtex.tmLanguage */; };
+		4D8D1E1A1C50540D00666EED /* C#.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB61C50540D00666EED /* C#.tmLanguage */; };
+		4D8D1E1B1C50540D00666EED /* C++.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB71C50540D00666EED /* C++.tmLanguage */; };
+		4D8D1E1C1C50540D00666EED /* C.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB81C50540D00666EED /* C.tmLanguage */; };
+		4D8D1E1D1C50540D00666EED /* camlp4.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DB91C50540D00666EED /* camlp4.tmLanguage */; };
+		4D8D1E1E1C50540D00666EED /* Clojure.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DBA1C50540D00666EED /* Clojure.tmLanguage */; };
+		4D8D1E1F1C50540D00666EED /* CSS.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DBB1C50540D00666EED /* CSS.tmLanguage */; };
+		4D8D1E201C50540D00666EED /* D.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DBC1C50540D00666EED /* D.tmLanguage */; };
+		4D8D1E211C50540D00666EED /* Diff.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DBD1C50540D00666EED /* Diff.tmLanguage */; };
+		4D8D1E221C50540D00666EED /* DOT.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DBE1C50540D00666EED /* DOT.tmLanguage */; };
+		4D8D1E231C50540D00666EED /* Erlang.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DBF1C50540D00666EED /* Erlang.tmLanguage */; };
+		4D8D1E241C50540D00666EED /* Go.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC01C50540D00666EED /* Go.tmLanguage */; };
+		4D8D1E251C50540D00666EED /* Groovy.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC11C50540D00666EED /* Groovy.tmLanguage */; };
+		4D8D1E261C50540D00666EED /* Haskell.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC21C50540D00666EED /* Haskell.tmLanguage */; };
+		4D8D1E271C50540D00666EED /* HTML (Erlang).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC31C50540D00666EED /* HTML (Erlang).tmLanguage */; };
+		4D8D1E281C50540D00666EED /* HTML (Rails).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC41C50540D00666EED /* HTML (Rails).tmLanguage */; };
+		4D8D1E291C50540D00666EED /* HTML (Tcl).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC51C50540D00666EED /* HTML (Tcl).tmLanguage */; };
+		4D8D1E2A1C50540D00666EED /* HTML-ASP.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC61C50540D00666EED /* HTML-ASP.tmLanguage */; };
+		4D8D1E2B1C50540D00666EED /* HTML.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC71C50540D00666EED /* HTML.tmLanguage */; };
+		4D8D1E2C1C50540D00666EED /* Java Server Pages (JSP).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC81C50540D00666EED /* Java Server Pages (JSP).tmLanguage */; };
+		4D8D1E2D1C50540D00666EED /* Java.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DC91C50540D00666EED /* Java.tmLanguage */; };
+		4D8D1E2E1C50540D00666EED /* JavaDoc.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DCA1C50540D00666EED /* JavaDoc.tmLanguage */; };
+		4D8D1E2F1C50540D00666EED /* JavaProperties.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DCB1C50540D00666EED /* JavaProperties.tmLanguage */; };
+		4D8D1E301C50540D00666EED /* JavaScript (Rails).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DCC1C50540D00666EED /* JavaScript (Rails).tmLanguage */; };
+		4D8D1E311C50540D00666EED /* JavaScript.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DCD1C50540D00666EED /* JavaScript.tmLanguage */; };
+		4D8D1E321C50540D00666EED /* JSON.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DCE1C50540D00666EED /* JSON.tmLanguage */; };
+		4D8D1E331C50540D00666EED /* LaTeX Beamer.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DCF1C50540D00666EED /* LaTeX Beamer.tmLanguage */; };
+		4D8D1E341C50540D00666EED /* LaTeX Log.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD01C50540D00666EED /* LaTeX Log.tmLanguage */; };
+		4D8D1E351C50540D00666EED /* LaTeX Memoir.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD11C50540D00666EED /* LaTeX Memoir.tmLanguage */; };
+		4D8D1E361C50540D00666EED /* LaTeX.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD21C50540D00666EED /* LaTeX.tmLanguage */; };
+		4D8D1E371C50540D00666EED /* Lisp.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD31C50540D00666EED /* Lisp.tmLanguage */; };
+		4D8D1E381C50540D00666EED /* Literate Haskell.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD41C50540D00666EED /* Literate Haskell.tmLanguage */; };
+		4D8D1E391C50540D00666EED /* Lua.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD51C50540D00666EED /* Lua.tmLanguage */; };
+		4D8D1E3A1C50540D00666EED /* Makefile.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD61C50540D00666EED /* Makefile.tmLanguage */; };
+		4D8D1E3B1C50540D00666EED /* Markdown.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD71C50540D00666EED /* Markdown.tmLanguage */; };
+		4D8D1E3C1C50540D00666EED /* Matlab.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD81C50540D00666EED /* Matlab.tmLanguage */; };
+		4D8D1E3D1C50540D00666EED /* MultiMarkdown.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DD91C50540D00666EED /* MultiMarkdown.tmLanguage */; };
+		4D8D1E3E1C50540D00666EED /* Objective-C++.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DDA1C50540D00666EED /* Objective-C++.tmLanguage */; };
+		4D8D1E3F1C50540D00666EED /* Objective-C.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DDB1C50540D00666EED /* Objective-C.tmLanguage */; };
+		4D8D1E401C50540D00666EED /* OCaml.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DDC1C50540D00666EED /* OCaml.tmLanguage */; };
+		4D8D1E411C50540D00666EED /* OCamllex.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DDD1C50540D00666EED /* OCamllex.tmLanguage */; };
+		4D8D1E421C50540D00666EED /* OCamlyacc.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DDE1C50540D00666EED /* OCamlyacc.tmLanguage */; };
+		4D8D1E431C50540D00666EED /* Pascal.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DDF1C50540D00666EED /* Pascal.tmLanguage */; };
+		4D8D1E441C50540D00666EED /* Perl.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE01C50540D00666EED /* Perl.tmLanguage */; };
+		4D8D1E451C50540D00666EED /* PHP.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE11C50540D00666EED /* PHP.tmLanguage */; };
+		4D8D1E461C50540D00666EED /* Plain text.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE21C50540D00666EED /* Plain text.tmLanguage */; };
+		4D8D1E471C50540D00666EED /* Python.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE31C50540D00666EED /* Python.tmLanguage */; };
+		4D8D1E481C50540D00666EED /* R Console.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE41C50540D00666EED /* R Console.tmLanguage */; };
+		4D8D1E491C50540D00666EED /* R.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE51C50540D00666EED /* R.tmLanguage */; };
+		4D8D1E4A1C50540D00666EED /* Rd (R Documentation).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE61C50540D00666EED /* Rd (R Documentation).tmLanguage */; };
+		4D8D1E4B1C50540D00666EED /* RegExp.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE71C50540D00666EED /* RegExp.tmLanguage */; };
+		4D8D1E4C1C50540D00666EED /* Regular Expressions (Python).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE81C50540D00666EED /* Regular Expressions (Python).tmLanguage */; };
+		4D8D1E4D1C50540D00666EED /* reStructuredText.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DE91C50540D00666EED /* reStructuredText.tmLanguage */; };
+		4D8D1E4E1C50540D00666EED /* Ruby Haml.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DEA1C50540D00666EED /* Ruby Haml.tmLanguage */; };
+		4D8D1E4F1C50540D00666EED /* Ruby on Rails.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DEB1C50540D00666EED /* Ruby on Rails.tmLanguage */; };
+		4D8D1E501C50540D00666EED /* Ruby.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DEC1C50540D00666EED /* Ruby.tmLanguage */; };
+		4D8D1E511C50540D00666EED /* Scala.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DED1C50540D00666EED /* Scala.tmLanguage */; };
+		4D8D1E521C50540D00666EED /* Shell-Unix-Generic.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DEE1C50540D00666EED /* Shell-Unix-Generic.tmLanguage */; };
+		4D8D1E531C50540D00666EED /* SQL (Rails).tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DEF1C50540D00666EED /* SQL (Rails).tmLanguage */; };
+		4D8D1E541C50540D00666EED /* SQL.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF01C50540D00666EED /* SQL.tmLanguage */; };
+		4D8D1E551C50540D00666EED /* Swift.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF11C50540D00666EED /* Swift.tmLanguage */; };
+		4D8D1E561C50540D00666EED /* Tcl.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF21C50540D00666EED /* Tcl.tmLanguage */; };
+		4D8D1E571C50540D00666EED /* TeX Math.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF31C50540D00666EED /* TeX Math.tmLanguage */; };
+		4D8D1E581C50540D00666EED /* TeX.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF41C50540D00666EED /* TeX.tmLanguage */; };
+		4D8D1E591C50540D00666EED /* Textile.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF51C50540D00666EED /* Textile.tmLanguage */; };
+		4D8D1E5A1C50540D00666EED /* XML.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF61C50540D00666EED /* XML.tmLanguage */; };
+		4D8D1E5B1C50540D00666EED /* XSL.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF71C50540D00666EED /* XSL.tmLanguage */; };
+		4D8D1E5C1C50540D00666EED /* YAML.tmLanguage in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DF81C50540D00666EED /* YAML.tmLanguage */; };
+		4D8D1E5D1C50540D00666EED /* All Hallow's Eve.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DFA1C50540D00666EED /* All Hallow's Eve.tmTheme */; };
+		4D8D1E5E1C50540D00666EED /* Amy.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DFB1C50540D00666EED /* Amy.tmTheme */; };
+		4D8D1E5F1C50540D00666EED /* Blackboard.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DFC1C50540D00666EED /* Blackboard.tmTheme */; };
+		4D8D1E601C50540D00666EED /* Cobalt.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DFD1C50540D00666EED /* Cobalt.tmTheme */; };
+		4D8D1E611C50540D00666EED /* Dawn.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DFE1C50540D00666EED /* Dawn.tmTheme */; };
+		4D8D1E621C50540D00666EED /* Eiffel.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1DFF1C50540D00666EED /* Eiffel.tmTheme */; };
+		4D8D1E631C50540D00666EED /* Espresso Libre.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E001C50540D00666EED /* Espresso Libre.tmTheme */; };
+		4D8D1E641C50540D00666EED /* IDLE.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E011C50540D00666EED /* IDLE.tmTheme */; };
+		4D8D1E651C50540D00666EED /* iPlastic.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E021C50540D00666EED /* iPlastic.tmTheme */; };
+		4D8D1E661C50540D00666EED /* LAZY.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E031C50540D00666EED /* LAZY.tmTheme */; };
+		4D8D1E671C50540D00666EED /* Mac Classic.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E041C50540D00666EED /* Mac Classic.tmTheme */; };
+		4D8D1E681C50540D00666EED /* MagicWB (Amiga).tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E051C50540D00666EED /* MagicWB (Amiga).tmTheme */; };
+		4D8D1E691C50540D00666EED /* Monokai Bright.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E061C50540D00666EED /* Monokai Bright.tmTheme */; };
+		4D8D1E6A1C50540D00666EED /* Monokai.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E071C50540D00666EED /* Monokai.tmTheme */; };
+		4D8D1E6B1C50540D00666EED /* Pastels on Dark.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E081C50540D00666EED /* Pastels on Dark.tmTheme */; };
+		4D8D1E6C1C50540D00666EED /* Slush & Poppies.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E091C50540D00666EED /* Slush & Poppies.tmTheme */; };
+		4D8D1E6D1C50540D00666EED /* Solarized (Dark).tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E0A1C50540D00666EED /* Solarized (Dark).tmTheme */; };
+		4D8D1E6E1C50540D00666EED /* Solarized (Light).tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E0B1C50540D00666EED /* Solarized (Light).tmTheme */; };
+		4D8D1E6F1C50540D00666EED /* SpaceCadet.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E0C1C50540D00666EED /* SpaceCadet.tmTheme */; };
+		4D8D1E701C50540D00666EED /* Sunburst.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E0D1C50540D00666EED /* Sunburst.tmTheme */; };
+		4D8D1E711C50540D00666EED /* Tomorrow Night Blue.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E0E1C50540D00666EED /* Tomorrow Night Blue.tmTheme */; };
+		4D8D1E721C50540D00666EED /* Tomorrow Night Bright.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E0F1C50540D00666EED /* Tomorrow Night Bright.tmTheme */; };
+		4D8D1E731C50540D00666EED /* Tomorrow Night Eighties.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E101C50540D00666EED /* Tomorrow Night Eighties.tmTheme */; };
+		4D8D1E741C50540D00666EED /* Tomorrow Night.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E111C50540D00666EED /* Tomorrow Night.tmTheme */; };
+		4D8D1E751C50540D00666EED /* Tomorrow.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E121C50540D00666EED /* Tomorrow.tmTheme */; };
+		4D8D1E761C50540D00666EED /* Twilight.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E131C50540D00666EED /* Twilight.tmTheme */; };
+		4D8D1E771C50540D00666EED /* Zenburnesque.tmTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D1E141C50540D00666EED /* Zenburnesque.tmTheme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +262,105 @@
 		4D25763E1C4AD27000AA7F95 /* SettingsForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsForm.swift; sourceTree = "<group>"; };
 		4D25763F1C4AD27000AA7F95 /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceCodePro-Regular.ttf"; path = "../SourceCodePro-Regular.ttf"; sourceTree = "<group>"; };
 		4D2576411C4AD27000AA7F95 /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		4D8D1DB11C50540D00666EED /* ActionScript.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ActionScript.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DB21C50540D00666EED /* AppleScript.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AppleScript.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DB31C50540D00666EED /* ASP.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ASP.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DB41C50540D00666EED /* Batch File.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Batch File.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DB51C50540D00666EED /* Bibtex.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bibtex.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DB61C50540D00666EED /* C#.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "C#.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DB71C50540D00666EED /* C++.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "C++.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DB81C50540D00666EED /* C.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = C.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DB91C50540D00666EED /* camlp4.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = camlp4.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DBA1C50540D00666EED /* Clojure.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Clojure.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DBB1C50540D00666EED /* CSS.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CSS.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DBC1C50540D00666EED /* D.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = D.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DBD1C50540D00666EED /* Diff.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Diff.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DBE1C50540D00666EED /* DOT.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DOT.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DBF1C50540D00666EED /* Erlang.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Erlang.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DC01C50540D00666EED /* Go.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Go.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DC11C50540D00666EED /* Groovy.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Groovy.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DC21C50540D00666EED /* Haskell.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Haskell.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DC31C50540D00666EED /* HTML (Erlang).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "HTML (Erlang).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DC41C50540D00666EED /* HTML (Rails).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "HTML (Rails).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DC51C50540D00666EED /* HTML (Tcl).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "HTML (Tcl).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DC61C50540D00666EED /* HTML-ASP.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "HTML-ASP.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DC71C50540D00666EED /* HTML.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HTML.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DC81C50540D00666EED /* Java Server Pages (JSP).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Java Server Pages (JSP).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DC91C50540D00666EED /* Java.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Java.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DCA1C50540D00666EED /* JavaDoc.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JavaDoc.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DCB1C50540D00666EED /* JavaProperties.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JavaProperties.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DCC1C50540D00666EED /* JavaScript (Rails).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "JavaScript (Rails).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DCD1C50540D00666EED /* JavaScript.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JavaScript.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DCE1C50540D00666EED /* JSON.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JSON.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DCF1C50540D00666EED /* LaTeX Beamer.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "LaTeX Beamer.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DD01C50540D00666EED /* LaTeX Log.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "LaTeX Log.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DD11C50540D00666EED /* LaTeX Memoir.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "LaTeX Memoir.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DD21C50540D00666EED /* LaTeX.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LaTeX.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DD31C50540D00666EED /* Lisp.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Lisp.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DD41C50540D00666EED /* Literate Haskell.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Literate Haskell.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DD51C50540D00666EED /* Lua.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Lua.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DD61C50540D00666EED /* Makefile.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Makefile.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DD71C50540D00666EED /* Markdown.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Markdown.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DD81C50540D00666EED /* Matlab.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Matlab.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DD91C50540D00666EED /* MultiMarkdown.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MultiMarkdown.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DDA1C50540D00666EED /* Objective-C++.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Objective-C++.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DDB1C50540D00666EED /* Objective-C.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Objective-C.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DDC1C50540D00666EED /* OCaml.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = OCaml.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DDD1C50540D00666EED /* OCamllex.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = OCamllex.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DDE1C50540D00666EED /* OCamlyacc.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = OCamlyacc.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DDF1C50540D00666EED /* Pascal.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Pascal.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DE01C50540D00666EED /* Perl.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Perl.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DE11C50540D00666EED /* PHP.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PHP.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DE21C50540D00666EED /* Plain text.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Plain text.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DE31C50540D00666EED /* Python.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Python.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DE41C50540D00666EED /* R Console.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R Console.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DE51C50540D00666EED /* R.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = R.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DE61C50540D00666EED /* Rd (R Documentation).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Rd (R Documentation).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DE71C50540D00666EED /* RegExp.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RegExp.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DE81C50540D00666EED /* Regular Expressions (Python).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Regular Expressions (Python).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DE91C50540D00666EED /* reStructuredText.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = reStructuredText.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DEA1C50540D00666EED /* Ruby Haml.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Ruby Haml.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DEB1C50540D00666EED /* Ruby on Rails.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Ruby on Rails.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DEC1C50540D00666EED /* Ruby.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Ruby.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DED1C50540D00666EED /* Scala.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Scala.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DEE1C50540D00666EED /* Shell-Unix-Generic.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Shell-Unix-Generic.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DEF1C50540D00666EED /* SQL (Rails).tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SQL (Rails).tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DF01C50540D00666EED /* SQL.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SQL.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DF11C50540D00666EED /* Swift.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Swift.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DF21C50540D00666EED /* Tcl.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tcl.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DF31C50540D00666EED /* TeX Math.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "TeX Math.tmLanguage"; sourceTree = "<group>"; };
+		4D8D1DF41C50540D00666EED /* TeX.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TeX.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DF51C50540D00666EED /* Textile.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Textile.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DF61C50540D00666EED /* XML.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XML.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DF71C50540D00666EED /* XSL.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XSL.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DF81C50540D00666EED /* YAML.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = YAML.tmLanguage; sourceTree = "<group>"; };
+		4D8D1DFA1C50540D00666EED /* All Hallow's Eve.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All Hallow's Eve.tmTheme"; sourceTree = "<group>"; };
+		4D8D1DFB1C50540D00666EED /* Amy.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Amy.tmTheme; sourceTree = "<group>"; };
+		4D8D1DFC1C50540D00666EED /* Blackboard.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Blackboard.tmTheme; sourceTree = "<group>"; };
+		4D8D1DFD1C50540D00666EED /* Cobalt.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Cobalt.tmTheme; sourceTree = "<group>"; };
+		4D8D1DFE1C50540D00666EED /* Dawn.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Dawn.tmTheme; sourceTree = "<group>"; };
+		4D8D1DFF1C50540D00666EED /* Eiffel.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Eiffel.tmTheme; sourceTree = "<group>"; };
+		4D8D1E001C50540D00666EED /* Espresso Libre.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Espresso Libre.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E011C50540D00666EED /* IDLE.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IDLE.tmTheme; sourceTree = "<group>"; };
+		4D8D1E021C50540D00666EED /* iPlastic.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iPlastic.tmTheme; sourceTree = "<group>"; };
+		4D8D1E031C50540D00666EED /* LAZY.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LAZY.tmTheme; sourceTree = "<group>"; };
+		4D8D1E041C50540D00666EED /* Mac Classic.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Mac Classic.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E051C50540D00666EED /* MagicWB (Amiga).tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MagicWB (Amiga).tmTheme"; sourceTree = "<group>"; };
+		4D8D1E061C50540D00666EED /* Monokai Bright.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Monokai Bright.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E071C50540D00666EED /* Monokai.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Monokai.tmTheme; sourceTree = "<group>"; };
+		4D8D1E081C50540D00666EED /* Pastels on Dark.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Pastels on Dark.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E091C50540D00666EED /* Slush & Poppies.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Slush & Poppies.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E0A1C50540D00666EED /* Solarized (Dark).tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Solarized (Dark).tmTheme"; sourceTree = "<group>"; };
+		4D8D1E0B1C50540D00666EED /* Solarized (Light).tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Solarized (Light).tmTheme"; sourceTree = "<group>"; };
+		4D8D1E0C1C50540D00666EED /* SpaceCadet.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SpaceCadet.tmTheme; sourceTree = "<group>"; };
+		4D8D1E0D1C50540D00666EED /* Sunburst.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sunburst.tmTheme; sourceTree = "<group>"; };
+		4D8D1E0E1C50540D00666EED /* Tomorrow Night Blue.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Tomorrow Night Blue.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E0F1C50540D00666EED /* Tomorrow Night Bright.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Tomorrow Night Bright.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E101C50540D00666EED /* Tomorrow Night Eighties.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Tomorrow Night Eighties.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E111C50540D00666EED /* Tomorrow Night.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Tomorrow Night.tmTheme"; sourceTree = "<group>"; };
+		4D8D1E121C50540D00666EED /* Tomorrow.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tomorrow.tmTheme; sourceTree = "<group>"; };
+		4D8D1E131C50540D00666EED /* Twilight.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Twilight.tmTheme; sourceTree = "<group>"; };
+		4D8D1E141C50540D00666EED /* Zenburnesque.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zenburnesque.tmTheme; sourceTree = "<group>"; };
 		58749BBE47F8FDA6EE7F23AE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		630E6D7BA96A6D4BE7F7F38B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7824AB17A349C1629A0CAD03 /* libPods-Edhita.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Edhita.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -405,6 +603,7 @@
 		4D2576361C4AD27000AA7F95 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				4D8D1DAF1C50540D00666EED /* Syntax */,
 				4D2576371C4AD27000AA7F95 /* TextKit_LineNumbers */,
 			);
 			path = Libraries;
@@ -449,6 +648,128 @@
 			);
 			name = "Supporting Files";
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4D8D1DAF1C50540D00666EED /* Syntax */ = {
+			isa = PBXGroup;
+			children = (
+				4D8D1DB01C50540D00666EED /* tmLanguages */,
+				4D8D1DF91C50540D00666EED /* tmThemes */,
+			);
+			path = Syntax;
+			sourceTree = "<group>";
+		};
+		4D8D1DB01C50540D00666EED /* tmLanguages */ = {
+			isa = PBXGroup;
+			children = (
+				4D8D1DB11C50540D00666EED /* ActionScript.tmLanguage */,
+				4D8D1DB21C50540D00666EED /* AppleScript.tmLanguage */,
+				4D8D1DB31C50540D00666EED /* ASP.tmLanguage */,
+				4D8D1DB41C50540D00666EED /* Batch File.tmLanguage */,
+				4D8D1DB51C50540D00666EED /* Bibtex.tmLanguage */,
+				4D8D1DB61C50540D00666EED /* C#.tmLanguage */,
+				4D8D1DB71C50540D00666EED /* C++.tmLanguage */,
+				4D8D1DB81C50540D00666EED /* C.tmLanguage */,
+				4D8D1DB91C50540D00666EED /* camlp4.tmLanguage */,
+				4D8D1DBA1C50540D00666EED /* Clojure.tmLanguage */,
+				4D8D1DBB1C50540D00666EED /* CSS.tmLanguage */,
+				4D8D1DBC1C50540D00666EED /* D.tmLanguage */,
+				4D8D1DBD1C50540D00666EED /* Diff.tmLanguage */,
+				4D8D1DBE1C50540D00666EED /* DOT.tmLanguage */,
+				4D8D1DBF1C50540D00666EED /* Erlang.tmLanguage */,
+				4D8D1DC01C50540D00666EED /* Go.tmLanguage */,
+				4D8D1DC11C50540D00666EED /* Groovy.tmLanguage */,
+				4D8D1DC21C50540D00666EED /* Haskell.tmLanguage */,
+				4D8D1DC31C50540D00666EED /* HTML (Erlang).tmLanguage */,
+				4D8D1DC41C50540D00666EED /* HTML (Rails).tmLanguage */,
+				4D8D1DC51C50540D00666EED /* HTML (Tcl).tmLanguage */,
+				4D8D1DC61C50540D00666EED /* HTML-ASP.tmLanguage */,
+				4D8D1DC71C50540D00666EED /* HTML.tmLanguage */,
+				4D8D1DC81C50540D00666EED /* Java Server Pages (JSP).tmLanguage */,
+				4D8D1DC91C50540D00666EED /* Java.tmLanguage */,
+				4D8D1DCA1C50540D00666EED /* JavaDoc.tmLanguage */,
+				4D8D1DCB1C50540D00666EED /* JavaProperties.tmLanguage */,
+				4D8D1DCC1C50540D00666EED /* JavaScript (Rails).tmLanguage */,
+				4D8D1DCD1C50540D00666EED /* JavaScript.tmLanguage */,
+				4D8D1DCE1C50540D00666EED /* JSON.tmLanguage */,
+				4D8D1DCF1C50540D00666EED /* LaTeX Beamer.tmLanguage */,
+				4D8D1DD01C50540D00666EED /* LaTeX Log.tmLanguage */,
+				4D8D1DD11C50540D00666EED /* LaTeX Memoir.tmLanguage */,
+				4D8D1DD21C50540D00666EED /* LaTeX.tmLanguage */,
+				4D8D1DD31C50540D00666EED /* Lisp.tmLanguage */,
+				4D8D1DD41C50540D00666EED /* Literate Haskell.tmLanguage */,
+				4D8D1DD51C50540D00666EED /* Lua.tmLanguage */,
+				4D8D1DD61C50540D00666EED /* Makefile.tmLanguage */,
+				4D8D1DD71C50540D00666EED /* Markdown.tmLanguage */,
+				4D8D1DD81C50540D00666EED /* Matlab.tmLanguage */,
+				4D8D1DD91C50540D00666EED /* MultiMarkdown.tmLanguage */,
+				4D8D1DDA1C50540D00666EED /* Objective-C++.tmLanguage */,
+				4D8D1DDB1C50540D00666EED /* Objective-C.tmLanguage */,
+				4D8D1DDC1C50540D00666EED /* OCaml.tmLanguage */,
+				4D8D1DDD1C50540D00666EED /* OCamllex.tmLanguage */,
+				4D8D1DDE1C50540D00666EED /* OCamlyacc.tmLanguage */,
+				4D8D1DDF1C50540D00666EED /* Pascal.tmLanguage */,
+				4D8D1DE01C50540D00666EED /* Perl.tmLanguage */,
+				4D8D1DE11C50540D00666EED /* PHP.tmLanguage */,
+				4D8D1DE21C50540D00666EED /* Plain text.tmLanguage */,
+				4D8D1DE31C50540D00666EED /* Python.tmLanguage */,
+				4D8D1DE41C50540D00666EED /* R Console.tmLanguage */,
+				4D8D1DE51C50540D00666EED /* R.tmLanguage */,
+				4D8D1DE61C50540D00666EED /* Rd (R Documentation).tmLanguage */,
+				4D8D1DE71C50540D00666EED /* RegExp.tmLanguage */,
+				4D8D1DE81C50540D00666EED /* Regular Expressions (Python).tmLanguage */,
+				4D8D1DE91C50540D00666EED /* reStructuredText.tmLanguage */,
+				4D8D1DEA1C50540D00666EED /* Ruby Haml.tmLanguage */,
+				4D8D1DEB1C50540D00666EED /* Ruby on Rails.tmLanguage */,
+				4D8D1DEC1C50540D00666EED /* Ruby.tmLanguage */,
+				4D8D1DED1C50540D00666EED /* Scala.tmLanguage */,
+				4D8D1DEE1C50540D00666EED /* Shell-Unix-Generic.tmLanguage */,
+				4D8D1DEF1C50540D00666EED /* SQL (Rails).tmLanguage */,
+				4D8D1DF01C50540D00666EED /* SQL.tmLanguage */,
+				4D8D1DF11C50540D00666EED /* Swift.tmLanguage */,
+				4D8D1DF21C50540D00666EED /* Tcl.tmLanguage */,
+				4D8D1DF31C50540D00666EED /* TeX Math.tmLanguage */,
+				4D8D1DF41C50540D00666EED /* TeX.tmLanguage */,
+				4D8D1DF51C50540D00666EED /* Textile.tmLanguage */,
+				4D8D1DF61C50540D00666EED /* XML.tmLanguage */,
+				4D8D1DF71C50540D00666EED /* XSL.tmLanguage */,
+				4D8D1DF81C50540D00666EED /* YAML.tmLanguage */,
+			);
+			path = tmLanguages;
+			sourceTree = "<group>";
+		};
+		4D8D1DF91C50540D00666EED /* tmThemes */ = {
+			isa = PBXGroup;
+			children = (
+				4D8D1DFA1C50540D00666EED /* All Hallow's Eve.tmTheme */,
+				4D8D1DFB1C50540D00666EED /* Amy.tmTheme */,
+				4D8D1DFC1C50540D00666EED /* Blackboard.tmTheme */,
+				4D8D1DFD1C50540D00666EED /* Cobalt.tmTheme */,
+				4D8D1DFE1C50540D00666EED /* Dawn.tmTheme */,
+				4D8D1DFF1C50540D00666EED /* Eiffel.tmTheme */,
+				4D8D1E001C50540D00666EED /* Espresso Libre.tmTheme */,
+				4D8D1E011C50540D00666EED /* IDLE.tmTheme */,
+				4D8D1E021C50540D00666EED /* iPlastic.tmTheme */,
+				4D8D1E031C50540D00666EED /* LAZY.tmTheme */,
+				4D8D1E041C50540D00666EED /* Mac Classic.tmTheme */,
+				4D8D1E051C50540D00666EED /* MagicWB (Amiga).tmTheme */,
+				4D8D1E061C50540D00666EED /* Monokai Bright.tmTheme */,
+				4D8D1E071C50540D00666EED /* Monokai.tmTheme */,
+				4D8D1E081C50540D00666EED /* Pastels on Dark.tmTheme */,
+				4D8D1E091C50540D00666EED /* Slush & Poppies.tmTheme */,
+				4D8D1E0A1C50540D00666EED /* Solarized (Dark).tmTheme */,
+				4D8D1E0B1C50540D00666EED /* Solarized (Light).tmTheme */,
+				4D8D1E0C1C50540D00666EED /* SpaceCadet.tmTheme */,
+				4D8D1E0D1C50540D00666EED /* Sunburst.tmTheme */,
+				4D8D1E0E1C50540D00666EED /* Tomorrow Night Blue.tmTheme */,
+				4D8D1E0F1C50540D00666EED /* Tomorrow Night Bright.tmTheme */,
+				4D8D1E101C50540D00666EED /* Tomorrow Night Eighties.tmTheme */,
+				4D8D1E111C50540D00666EED /* Tomorrow Night.tmTheme */,
+				4D8D1E121C50540D00666EED /* Tomorrow.tmTheme */,
+				4D8D1E131C50540D00666EED /* Twilight.tmTheme */,
+				4D8D1E141C50540D00666EED /* Zenburnesque.tmTheme */,
+			);
+			path = tmThemes;
 			sourceTree = "<group>";
 		};
 		9B6E1E8419E2EB2100C72D13 = {
@@ -556,65 +877,164 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8D1E241C50540D00666EED /* Go.tmLanguage in Resources */,
+				4D8D1E1A1C50540D00666EED /* C#.tmLanguage in Resources */,
 				4D2576571C4AD27000AA7F95 /* _typography.scss in Resources */,
+				4D8D1E391C50540D00666EED /* Lua.tmLanguage in Resources */,
+				4D8D1E761C50540D00666EED /* Twilight.tmTheme in Resources */,
 				4D2576721C4AD27000AA7F95 /* pic01.jpg in Resources */,
+				4D8D1E6A1C50540D00666EED /* Monokai.tmTheme in Resources */,
 				4D25766B1C4AD27000AA7F95 /* _functions.scss in Resources */,
+				4D8D1E471C50540D00666EED /* Python.tmLanguage in Resources */,
+				4D8D1E511C50540D00666EED /* Scala.tmLanguage in Resources */,
+				4D8D1E2E1C50540D00666EED /* JavaDoc.tmLanguage in Resources */,
 				4D25768F1C4AD27000AA7F95 /* Launch Screen.storyboard in Resources */,
 				4D2576591C4AD27000AA7F95 /* _button.scss in Resources */,
 				4D25765C1C4AD27000AA7F95 /* _icon.scss in Resources */,
 				4D25764B1C4AD27000AA7F95 /* fontawesome-webfont.woff in Resources */,
+				4D8D1E461C50540D00666EED /* Plain text.tmLanguage in Resources */,
 				4D2576611C4AD27000AA7F95 /* _spotlights.scss in Resources */,
+				4D8D1E431C50540D00666EED /* Pascal.tmLanguage in Resources */,
 				4D2576431C4AD27000AA7F95 /* font-awesome.min.css in Resources */,
+				4D8D1E421C50540D00666EED /* OCamlyacc.tmLanguage in Resources */,
+				4D8D1E491C50540D00666EED /* R.tmLanguage in Resources */,
+				4D8D1E281C50540D00666EED /* HTML (Rails).tmLanguage in Resources */,
 				4D2576641C4AD27000AA7F95 /* ie8.scss in Resources */,
+				4D8D1E3B1C50540D00666EED /* Markdown.tmLanguage in Resources */,
+				4D8D1E4C1C50540D00666EED /* Regular Expressions (Python).tmLanguage in Resources */,
 				4D2576881C4AD27000AA7F95 /* Pods-acknowledgements.plist in Resources */,
 				4D2576671C4AD27000AA7F95 /* _header.scss in Resources */,
+				4D8D1E571C50540D00666EED /* TeX Math.tmLanguage in Resources */,
 				4D25766F1C4AD27000AA7F95 /* main.scss in Resources */,
+				4D8D1E2C1C50540D00666EED /* Java Server Pages (JSP).tmLanguage in Resources */,
+				4D8D1E441C50540D00666EED /* Perl.tmLanguage in Resources */,
+				4D8D1E261C50540D00666EED /* Haskell.tmLanguage in Resources */,
+				4D8D1E291C50540D00666EED /* HTML (Tcl).tmLanguage in Resources */,
+				4D8D1E501C50540D00666EED /* Ruby.tmLanguage in Resources */,
 				4D25765B1C4AD27000AA7F95 /* _form.scss in Resources */,
+				4D8D1E661C50540D00666EED /* LAZY.tmTheme in Resources */,
+				4D8D1E6F1C50540D00666EED /* SpaceCadet.tmTheme in Resources */,
 				4D2576691C4AD27000AA7F95 /* _sidebar.scss in Resources */,
+				4D8D1E531C50540D00666EED /* SQL (Rails).tmLanguage in Resources */,
 				4D25764E1C4AD27000AA7F95 /* html5shiv.js in Resources */,
+				4D8D1E591C50540D00666EED /* Textile.tmLanguage in Resources */,
 				4D2576681C4AD27000AA7F95 /* _intro.scss in Resources */,
+				4D8D1E171C50540D00666EED /* ASP.tmLanguage in Resources */,
+				4D8D1E411C50540D00666EED /* OCamllex.tmLanguage in Resources */,
+				4D8D1E2D1C50540D00666EED /* Java.tmLanguage in Resources */,
+				4D8D1E201C50540D00666EED /* D.tmLanguage in Resources */,
+				4D8D1E2F1C50540D00666EED /* JavaProperties.tmLanguage in Resources */,
+				4D8D1E271C50540D00666EED /* HTML (Erlang).tmLanguage in Resources */,
 				4D2576441C4AD27000AA7F95 /* ie8.css in Resources */,
 				4D25765D1C4AD27000AA7F95 /* _image.scss in Resources */,
+				4D8D1E401C50540D00666EED /* OCaml.tmLanguage in Resources */,
 				4D25766C1C4AD27000AA7F95 /* _mixins.scss in Resources */,
+				4D8D1E1B1C50540D00666EED /* C++.tmLanguage in Resources */,
 				4D25766A1C4AD27000AA7F95 /* _wrapper.scss in Resources */,
+				4D8D1E631C50540D00666EED /* Espresso Libre.tmTheme in Resources */,
+				4D8D1E721C50540D00666EED /* Tomorrow Night Bright.tmTheme in Resources */,
 				4D2576631C4AD27000AA7F95 /* _wrapper.scss in Resources */,
+				4D8D1E1D1C50540D00666EED /* camlp4.tmLanguage in Resources */,
+				4D8D1E5D1C50540D00666EED /* All Hallow's Eve.tmTheme in Resources */,
+				4D8D1E641C50540D00666EED /* IDLE.tmTheme in Resources */,
 				4D2576711C4AD27000AA7F95 /* generic.html in Resources */,
 				4D2576451C4AD27000AA7F95 /* ie9.css in Resources */,
+				4D8D1E5F1C50540D00666EED /* Blackboard.tmTheme in Resources */,
+				4D8D1E621C50540D00666EED /* Eiffel.tmTheme in Resources */,
+				4D8D1E611C50540D00666EED /* Dawn.tmTheme in Resources */,
+				4D8D1E451C50540D00666EED /* PHP.tmLanguage in Resources */,
+				4D8D1E321C50540D00666EED /* JSON.tmLanguage in Resources */,
+				4D8D1E251C50540D00666EED /* Groovy.tmLanguage in Resources */,
+				4D8D1E341C50540D00666EED /* LaTeX Log.tmLanguage in Resources */,
+				4D8D1E6D1C50540D00666EED /* Solarized (Dark).tmTheme in Resources */,
 				4D2576761C4AD27000AA7F95 /* index.html in Resources */,
 				4D25764F1C4AD27000AA7F95 /* respond.min.js in Resources */,
+				4D8D1E331C50540D00666EED /* LaTeX Beamer.tmLanguage in Resources */,
+				4D8D1E541C50540D00666EED /* SQL.tmLanguage in Resources */,
+				4D8D1E5A1C50540D00666EED /* XML.tmLanguage in Resources */,
+				4D8D1E1C1C50540D00666EED /* C.tmLanguage in Resources */,
 				4D2576471C4AD27000AA7F95 /* main.css in Resources */,
+				4D8D1E741C50540D00666EED /* Tomorrow Night.tmTheme in Resources */,
 				4D2576701C4AD27000AA7F95 /* elements.html in Resources */,
+				4D8D1E5C1C50540D00666EED /* YAML.tmLanguage in Resources */,
 				4D25765A1C4AD27000AA7F95 /* _features.scss in Resources */,
+				4D8D1E2A1C50540D00666EED /* HTML-ASP.tmLanguage in Resources */,
+				4D8D1E151C50540D00666EED /* ActionScript.tmLanguage in Resources */,
 				4D2576551C4AD27000AA7F95 /* util.js in Resources */,
+				4D8D1E1E1C50540D00666EED /* Clojure.tmLanguage in Resources */,
+				4D8D1E551C50540D00666EED /* Swift.tmLanguage in Resources */,
 				4D2576741C4AD27000AA7F95 /* pic03.jpg in Resources */,
 				4D25765F1C4AD27000AA7F95 /* _section.scss in Resources */,
+				4D8D1E191C50540D00666EED /* Bibtex.tmLanguage in Resources */,
+				4D8D1E301C50540D00666EED /* JavaScript (Rails).tmLanguage in Resources */,
+				4D8D1E701C50540D00666EED /* Sunburst.tmTheme in Resources */,
+				4D8D1E3C1C50540D00666EED /* Matlab.tmLanguage in Resources */,
 				4D2576491C4AD27000AA7F95 /* fontawesome-webfont.svg in Resources */,
 				4D2576941C4AD27000AA7F95 /* SourceCodePro-Regular.ttf in Resources */,
+				4D8D1E211C50540D00666EED /* Diff.tmLanguage in Resources */,
+				4D8D1E651C50540D00666EED /* iPlastic.tmTheme in Resources */,
+				4D8D1E3F1C50540D00666EED /* Objective-C.tmLanguage in Resources */,
+				4D8D1E681C50540D00666EED /* MagicWB (Amiga).tmTheme in Resources */,
+				4D8D1E221C50540D00666EED /* DOT.tmLanguage in Resources */,
+				4D8D1E4B1C50540D00666EED /* RegExp.tmLanguage in Resources */,
 				4D25766D1C4AD27000AA7F95 /* _skel.scss in Resources */,
+				4D8D1E5E1C50540D00666EED /* Amy.tmTheme in Resources */,
+				4D8D1E351C50540D00666EED /* LaTeX Memoir.tmLanguage in Resources */,
+				4D8D1E3D1C50540D00666EED /* MultiMarkdown.tmLanguage in Resources */,
+				4D8D1E581C50540D00666EED /* TeX.tmLanguage in Resources */,
 				4D25766E1C4AD27000AA7F95 /* _vars.scss in Resources */,
+				4D8D1E601C50540D00666EED /* Cobalt.tmTheme in Resources */,
+				4D8D1E4F1C50540D00666EED /* Ruby on Rails.tmLanguage in Resources */,
 				4D2576511C4AD27000AA7F95 /* jquery.scrollex.min.js in Resources */,
 				4D25764C1C4AD27000AA7F95 /* fontawesome-webfont.woff2 in Resources */,
+				4D8D1E3A1C50540D00666EED /* Makefile.tmLanguage in Resources */,
 				4D25768D1C4AD27000AA7F95 /* Images.xcassets in Resources */,
+				4D8D1E181C50540D00666EED /* Batch File.tmLanguage in Resources */,
 				4D2576781C4AD27000AA7F95 /* README.txt in Resources */,
 				4D2576731C4AD27000AA7F95 /* pic02.jpg in Resources */,
+				4D8D1E771C50540D00666EED /* Zenburnesque.tmTheme in Resources */,
 				4D2576531C4AD27000AA7F95 /* main.js in Resources */,
 				4D25765E1C4AD27000AA7F95 /* _list.scss in Resources */,
 				4D2576561C4AD27000AA7F95 /* _page.scss in Resources */,
+				4D8D1E6C1C50540D00666EED /* Slush & Poppies.tmTheme in Resources */,
+				4D8D1E671C50540D00666EED /* Mac Classic.tmTheme in Resources */,
 				4D2576581C4AD27000AA7F95 /* _box.scss in Resources */,
 				4D25768C1C4AD27000AA7F95 /* Localizable.strings in Resources */,
+				4D8D1E2B1C50540D00666EED /* HTML.tmLanguage in Resources */,
 				4D2576501C4AD27000AA7F95 /* jquery.min.js in Resources */,
+				4D8D1E361C50540D00666EED /* LaTeX.tmLanguage in Resources */,
+				4D8D1E4A1C50540D00666EED /* Rd (R Documentation).tmLanguage in Resources */,
+				4D8D1E691C50540D00666EED /* Monokai Bright.tmTheme in Resources */,
 				4D2576771C4AD27000AA7F95 /* LICENSE.txt in Resources */,
+				4D8D1E6E1C50540D00666EED /* Solarized (Light).tmTheme in Resources */,
 				4D25764D1C4AD27000AA7F95 /* FontAwesome.otf in Resources */,
 				4D25764A1C4AD27000AA7F95 /* fontawesome-webfont.ttf in Resources */,
+				4D8D1E371C50540D00666EED /* Lisp.tmLanguage in Resources */,
+				4D8D1E731C50540D00666EED /* Tomorrow Night Eighties.tmTheme in Resources */,
+				4D8D1E381C50540D00666EED /* Literate Haskell.tmLanguage in Resources */,
+				4D8D1E161C50540D00666EED /* AppleScript.tmLanguage in Resources */,
 				4D2576621C4AD27000AA7F95 /* _table.scss in Resources */,
 				4D2576751C4AD27000AA7F95 /* pic04.jpg in Resources */,
+				4D8D1E561C50540D00666EED /* Tcl.tmLanguage in Resources */,
+				4D8D1E4D1C50540D00666EED /* reStructuredText.tmLanguage in Resources */,
+				4D8D1E231C50540D00666EED /* Erlang.tmLanguage in Resources */,
+				4D8D1E711C50540D00666EED /* Tomorrow Night Blue.tmTheme in Resources */,
+				4D8D1E4E1C50540D00666EED /* Ruby Haml.tmLanguage in Resources */,
+				4D8D1E521C50540D00666EED /* Shell-Unix-Generic.tmLanguage in Resources */,
+				4D8D1E1F1C50540D00666EED /* CSS.tmLanguage in Resources */,
+				4D8D1E751C50540D00666EED /* Tomorrow.tmTheme in Resources */,
+				4D8D1E3E1C50540D00666EED /* Objective-C++.tmLanguage in Resources */,
 				4D2576461C4AD27000AA7F95 /* intro.svg in Resources */,
+				4D8D1E6B1C50540D00666EED /* Pastels on Dark.tmTheme in Resources */,
 				4D2576601C4AD27000AA7F95 /* _split.scss in Resources */,
 				4D2576661C4AD27000AA7F95 /* _footer.scss in Resources */,
 				4D2576541C4AD27000AA7F95 /* skel.min.js in Resources */,
 				4D2576521C4AD27000AA7F95 /* jquery.scrolly.min.js in Resources */,
+				4D8D1E481C50540D00666EED /* R Console.tmLanguage in Resources */,
+				4D8D1E5B1C50540D00666EED /* XSL.tmLanguage in Resources */,
 				4D2576481C4AD27000AA7F95 /* fontawesome-webfont.eot in Resources */,
 				4D2576651C4AD27000AA7F95 /* ie9.scss in Resources */,
+				4D8D1E311C50540D00666EED /* JavaScript.tmLanguage in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
