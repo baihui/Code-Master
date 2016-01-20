@@ -105,6 +105,7 @@ class EditorView: UIView, UITextViewDelegate {
     override func layoutSubviews() {
         super.layoutSubviews()
         self.updateFrame()
+        self.textView.delegate = self
         
         if self.textView.isFirstResponder() {
             let selectedRange = self.textView.selectedRange
@@ -180,6 +181,11 @@ class EditorView: UIView, UITextViewDelegate {
     
     func reload() {
         self.webView.reload()
+    }
+    
+    func hideKeyboard() {
+        self.textView.endEditing(true)
+        textView.resignFirstResponder()
     }
     
     func renderMarkdown(content: NSString) -> NSString {

@@ -12,6 +12,7 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
 
     let kToolbarIconSize: CGFloat = 30.0
 
+    var hideKeyboardButton: UIButton!
     var fullscreenItem: UIBarButtonItem!
     var reloadItem: UIBarButtonItem!
     var shareItem: UIBarButtonItem!
@@ -32,6 +33,16 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
         
         self.editorView = EditorView(frame: self.view.bounds)
         self.view.addSubview(self.editorView)
+        
+        // NavigationBar
+        // Hide Keyboard Button
+        hideKeyboardButton = UIButton(type: UIButtonType.Custom)
+        hideKeyboardButton.setImage(UIImage(named: "HideKeyboard"), forState: UIControlState.Normal)
+        hideKeyboardButton.addTarget(self, action:"hideKeyboardDidTap", forControlEvents: UIControlEvents.TouchDragInside)
+        hideKeyboardButton.frame=CGRectMake(0, 0, 30, 30)
+        let hkButton = UIBarButtonItem(customView: hideKeyboardButton)
+        self.navigationItem.rightBarButtonItem = hkButton
+        hideKeyboardButton.hidden = true
         
         // Toolbar
         // Run Button
@@ -154,6 +165,10 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
 
     
     // MARK: - Actions
+    
+    func hideKeyboardDidTap(sender: AnyObject) {
+        self.editorView.hideKeyboard()
+    }
     
     func fullscreenItemDidTap(sender: AnyObject) {
         if self.splitViewController?.preferredDisplayMode == UISplitViewControllerDisplayMode.Automatic {
@@ -281,10 +296,12 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
     
     func handleKeyboardWillShowNotification(notification: NSNotification) {
         keyboardWillChangeFrameWithNotification(notification, showsKeyboard: true)
+        hideKeyboardButton.hidden = false
     }
     
     func handleKeyboardWillHideNotification(notification: NSNotification) {
         keyboardWillChangeFrameWithNotification(notification, showsKeyboard: false)
+        hideKeyboardButton.hidden = true
     }
     
     func keyboardWillChangeFrameWithNotification(notification: NSNotification, showsKeyboard: Bool) {
