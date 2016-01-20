@@ -1,9 +1,9 @@
 //
 //  SettingsViewController.swift
-//  Edhita
+//  Code Master
 //
-//  Created by Tatsuya Tobioka on 10/9/14.
-//  Copyright (c) 2014 tnantoka. All rights reserved.
+//  Created by Justin Bush on 1/1/16.
+//  Copyright (c) 2016 Justin Bush. All rights reserved.
 //
 
 import UIKit
