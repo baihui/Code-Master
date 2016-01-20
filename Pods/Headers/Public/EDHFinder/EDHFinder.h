@@ -1,0 +1,1 @@
+../../../EDHFinder/Pod/Classes/EDHFinder.h

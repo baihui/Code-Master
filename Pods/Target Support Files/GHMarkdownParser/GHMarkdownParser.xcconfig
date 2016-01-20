@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/GHMarkdownParser" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bootstrap" "${PODS_ROOT}/Headers/Public/Colours" "${PODS_ROOT}/Headers/Public/EDHFinder" "${PODS_ROOT}/Headers/Public/EDHFontSelector" "${PODS_ROOT}/Headers/Public/EDHInputAccessoryView" "${PODS_ROOT}/Headers/Public/EDHUtility" "${PODS_ROOT}/Headers/Public/FCFileManager" "${PODS_ROOT}/Headers/Public/FXForms" "${PODS_ROOT}/Headers/Public/FontAwesomeKit" "${PODS_ROOT}/Headers/Public/GHMarkdownParser" "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK" "${PODS_ROOT}/Headers/Public/MGSwipeTableCell" "${PODS_ROOT}/Headers/Public/Megrim" "${PODS_ROOT}/Headers/Public/VTAcknowledgementsViewController" "${PODS_ROOT}/Headers/Public/github-markdown-css" "${PODS_ROOT}/GHMarkdownParser/discount"
+OTHER_LDFLAGS = -ObjC -all_load
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

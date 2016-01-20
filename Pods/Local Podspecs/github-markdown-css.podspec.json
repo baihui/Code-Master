@@ -1,0 +1,16 @@
+{
+  "name": "github-markdown-css",
+  "version": "0.1.0",
+  "summary": "",
+  "description": "",
+  "homepage": "https://github.com/sindresorhus/github-markdown-css",
+  "license": {
+    "type": "MIT",
+    "file": "Specs/github-markdown-css/license"
+  },
+  "authors": "Sindre Sorhus",
+  "source": {
+    "git": "https://github.com/tnantoka/podspecs.git",
+    "tag": "0.1.0"
+  }
+}
