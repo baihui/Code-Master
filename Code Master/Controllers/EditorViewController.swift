@@ -79,7 +79,7 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
         self.settingsItem.image = settingsIcon
         
         // Plain Text
-        let plainTextButton = UIBarButtonItem(title: "Plain Text", style: .Plain, target: self, action:"plainTextItemDidTap:")
+        let plainTextButton = UIBarButtonItem(title: "Plain Text", style: .Plain, target: self, action:"languageDidTap")
 
         self.fullscreenItem = UIBarButtonItem(image: nil, style: .Plain, target: self, action: "fullscreenItemDidTap:")
         //self.reloadItem = self.barButtonItem(icon: FAKIonIcons.refreshbeforeionRefreshingIconWithSize(self.kToolbarIconSize), action: "reloadItemDidTap:")
@@ -165,6 +165,13 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
 
     
     // MARK: - Actions
+    
+    func languageDidTap() {
+        let languageController = LanguageViewController()
+        let navController = UINavigationController(rootViewController: languageController)
+        navController.modalPresentationStyle = .FormSheet
+        self.presentViewController(navController, animated: true, completion: nil)
+    }
     
     func hideKeyboardDidTap(sender: AnyObject) {
         self.editorView.hideKeyboard()
