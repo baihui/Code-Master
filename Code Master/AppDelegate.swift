@@ -22,6 +22,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         self.setAppearance()
         self.initExample()
         
+        // set default for theme, language
+        
+        var selectedTheme = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.themeKey)
+        if selectedTheme == nil {
+            selectedTheme = "Tomorrow"
+            NSUserDefaults.standardUserDefaults().setObject(selectedTheme, forKey: Defaults.themeKey)
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        
+        var language:String? = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.languageKey) as? String
+        if language == nil {
+            language = "Plain text"
+            NSUserDefaults.standardUserDefaults().setObject(language, forKey: Defaults.languageKey)
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        
+        
         self.editorController = EditorViewController()
         let _ = editorController.view // Force load view
         let editorNavController = UINavigationController(rootViewController: self.editorController)

@@ -8,7 +8,12 @@
 
 import UIKit
 
-class EditorViewController: UIViewController, EDHFinderListViewControllerDelegate, MFMailComposeViewControllerDelegate {
+public struct Defaults {
+    static let languageKey = "Defaults.Language"
+    static let themeKey = "Defaults.Theme"
+}
+
+class EditorViewController: UIViewController, EDHFinderListViewControllerDelegate, MFMailComposeViewControllerDelegate,LanguageViewControllerDelegate {
 
     let kToolbarIconSize: CGFloat = 30.0
 
@@ -19,6 +24,8 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
     var settingsItem: UIBarButtonItem!
     var modeControl: UISegmentedControl!
     var editorView: EditorView!
+    var plainTextButton:UIBarButtonItem!
+    var languageController : LanguageViewController!
 
     var finderItem: EDHFinderItem? {
         didSet {
@@ -79,7 +86,8 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
         self.settingsItem.image = settingsIcon
         
         // Plain Text
-        let plainTextButton = UIBarButtonItem(title: "Plain Text", style: .Plain, target: self, action:"languageDidTap")
+        let language:String? = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.languageKey) as? String
+        self.plainTextButton = UIBarButtonItem(title: language, style: .Plain, target: self, action:"languageDidTap")
 
         self.fullscreenItem = UIBarButtonItem(image: nil, style: .Plain, target: self, action: "fullscreenItemDidTap:")
         //self.reloadItem = self.barButtonItem(icon: FAKIonIcons.refreshbeforeionRefreshingIconWithSize(self.kToolbarIconSize), action: "reloadItemDidTap:")
@@ -97,7 +105,7 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
             flexibleItem,
             settingsItem,
             flexibleItem,
-            plainTextButton,
+            self.plainTextButton,
             flexibleItem
         ]
         
@@ -162,15 +170,22 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
         // delay for 0 second for scrren did update.
         self.performSelector("updateFullscreenItem", withObject: nil, afterDelay: 0)
     }
+    
+    // MARK: - LanguageViewControllerDelegate
+    
+    func didClickLanguage(language: String) {
+        self.plainTextButton.title = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.languageKey) as? String
+        self.editorView.updateSyntaxKit()
+    }
 
     
     // MARK: - Actions
     
     func languageDidTap() {
-        let languageController = LanguageViewController()
-        let navController = UINavigationController(rootViewController: languageController)
-        navController.modalPresentationStyle = .FormSheet
-        self.presentViewController(navController, animated: true, completion: nil)
+        self.languageController = LanguageViewController()
+        self.languageController.delegate = self
+        self.languageController.selectedLanguage = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.languageKey) as? String
+        self.navigationController?.pushViewController(self.languageController, animated: true)
     }
     
     func hideKeyboardDidTap(sender: AnyObject) {
@@ -262,6 +277,8 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
             break
         }
     }
+    
+    // MARK: - EDHFinderListViewControllerDelegate
 
     // MARK: - EDHFinderListViewControllerDelegate
 

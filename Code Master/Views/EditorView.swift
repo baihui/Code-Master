@@ -7,16 +7,16 @@
 //
 
 import UIKit
+import SyntaxKit
 
 class EditorView: UIView, UITextViewDelegate {
-
     let kBorderWidth : CGFloat = 1.0
     
     enum EditorViewMode {
         case None, Edit, Preview, Split
     }
     
-    var textView: LineNumberTextView!
+    var textView: UITextView!
     var webView: UIWebView! // TODO: Use WKWebView
     var finderItem: EDHFinderItem? {
         didSet {
@@ -37,7 +37,7 @@ class EditorView: UIView, UITextViewDelegate {
 
         self.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
 
-        self.textView = LineNumberTextView(frame: self.bounds)
+        self.textView = UITextView(frame: self.bounds)
         self.textView.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
         self.textView.delegate = self
         self.addSubview(self.textView)
@@ -127,6 +127,8 @@ class EditorView: UIView, UITextViewDelegate {
         if let item = self.finderItem {
             if item.isEditable() {
                 self.textView.editable = true
+                
+                
                 self.textView.text = item.content()
                 
                 if SettingsForm.sharedForm.accessoryView {
@@ -148,6 +150,33 @@ class EditorView: UIView, UITextViewDelegate {
         }
         
         EDHFontSelector.sharedSelector().applyToTextView(self.textView)
+        updateSyntaxKit()
+    }
+    
+    func updateSyntaxKit(){
+        if self.textView.text != ""{
+            var language:String? = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.languageKey) as? String
+            if language == "Plain text" {
+                language = "Swift"
+            }
+            let theme:String? = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.themeKey) as? String
+
+            let languageBundlePath = NSBundle.mainBundle().pathForResource("tmLanguages", ofType: "bundle")!
+            let languageBundle = NSBundle(path: languageBundlePath)
+            let tmlanguage = languageBundle?.pathForResource(language, ofType: "tmLanguage")
+            let plist = NSDictionary(contentsOfFile: tmlanguage!)! as [NSObject: AnyObject]
+            let yaml = Language(dictionary: plist)
+            
+            let themeBundlePath = NSBundle.mainBundle().pathForResource("tmThemes", ofType: "bundle")!
+            let themeBundle = NSBundle(path: themeBundlePath)
+            let tmtheme = themeBundle?.pathForResource(theme, ofType: "tmTheme")
+            let plist1 = NSDictionary(contentsOfFile: tmtheme!)! as [NSObject: AnyObject]
+            let tomorrow = Theme(dictionary: plist1)
+            let attributedParser = AttributedParser(language: yaml!, theme: tomorrow!)
+            
+            let attributedString = attributedParser.attributedStringForString(self.textView.text)
+            self.textView.attributedText = attributedString
+        }
     }
     
     func loadBlank() {

@@ -8,9 +8,15 @@
 
 import Foundation
 
+protocol LanguageViewControllerDelegate{
+    func didClickLanguage(language:String)
+}
+
 class LanguageViewController: UITableViewController {
     
     var languages: NSMutableArray!
+    var delegate:LanguageViewControllerDelegate?
+    var selectedLanguage:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +35,6 @@ class LanguageViewController: UITableViewController {
             let fileName = (element as NSString).stringByDeletingPathExtension
             languages.addObject(fileName)
         }
-        
-        self.tableView.reloadData()
-        
-        let doneItem = UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: "doneItemDidTap:")
-        self.navigationItem.rightBarButtonItem = doneItem
-
     }
     
     override func didReceiveMemoryWarning() {
@@ -54,20 +54,22 @@ class LanguageViewController: UITableViewController {
         if cell == nil {
             cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
         }
-        print(self.languages[indexPath.row])
-        cell!.textLabel?.text  = self.languages[indexPath.row] as? String
-//        cell!.backgroundColor = workout?.color
-//        cell!.countLabel.text = "\(indexPath.row+1)"
-//        cell!.selectionStyle = UITableViewCellSelectionStyle.None
+        let language = self.languages[indexPath.row] as? String
+        cell!.textLabel?.text  = language
+        if language == self.selectedLanguage {
+            cell!.accessoryType = UITableViewCellAccessoryType.Checkmark
+        } else {
+            cell!.accessoryType = UITableViewCellAccessoryType.None
+        }
+
         return cell!
     }
-    func doneItemDidTap(sender: AnyObject) {
-        self.close()
-    }
     
-    // MARK: - Utilities
-    
-    func close() {
-        self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
+        let language:String = (self.languages[indexPath.row] as? String)!
+        NSUserDefaults.standardUserDefaults().setObject(language, forKey: Defaults.languageKey)
+        NSUserDefaults.standardUserDefaults().synchronize()
+        self.delegate?.didClickLanguage(language)
+        self.navigationController?.popViewControllerAnimated(true)
     }
 }

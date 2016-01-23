@@ -8,7 +8,9 @@
 
 import UIKit
 
-class SettingsViewController: FXFormViewController {
+
+class SettingsViewController: FXFormViewController, ThemeViewControllerDelegate {
+    var themeController : ThemeViewController!
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -49,6 +51,19 @@ class SettingsViewController: FXFormViewController {
 
     func doneItemDidTap(sender: AnyObject) {
         self.close()
+    }
+    
+    func themeDidTap(sender: AnyObject) {
+        self.themeController = ThemeViewController()
+        self.themeController.selectedThemes = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.themeKey) as? String
+        self.themeController.delegate = self
+        self.navigationController?.pushViewController(self.themeController, animated: true)
+    }
+    
+    // MARK: - ThemeViewControllerDelegate
+    
+    func didClickTheme(theme: String) {
+
     }
     
     // MARK: - Utilities

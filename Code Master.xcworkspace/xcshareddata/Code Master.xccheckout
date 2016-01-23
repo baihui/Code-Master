@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B43AC08-A395-4537-A1B4-354F037FFB9E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Code Master</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>224836EBD46F6CCE734299959B7E8C77D766CC33</key>
+		<string>https://github.com/revblaze/Code-Master.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Code Master.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>224836EBD46F6CCE734299959B7E8C77D766CC33</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/revblaze/Code-Master.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>224836EBD46F6CCE734299959B7E8C77D766CC33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>224836EBD46F6CCE734299959B7E8C77D766CC33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Code-Master</string>
+		</dict>
+	</array>
+</dict>
+</plist>
