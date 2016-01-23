@@ -149,6 +149,7 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
 
         self.modeControlDidChange(self.modeControl)
         self.updateFullscreenItem()
+        self.editorView.updateSyntaxKit()
     }
 
     override func viewWillDisappear(animated: Bool) {

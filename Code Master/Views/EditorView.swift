@@ -16,7 +16,7 @@ class EditorView: UIView, UITextViewDelegate {
         case None, Edit, Preview, Split
     }
     
-    var textView: UITextView!
+    var textView: LineNumberTextView!
     var webView: UIWebView! // TODO: Use WKWebView
     var finderItem: EDHFinderItem? {
         didSet {
@@ -37,7 +37,7 @@ class EditorView: UIView, UITextViewDelegate {
 
         self.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
 
-        self.textView = UITextView(frame: self.bounds)
+        self.textView = LineNumberTextView(frame: self.bounds)
         self.textView.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
         self.textView.delegate = self
         self.addSubview(self.textView)
