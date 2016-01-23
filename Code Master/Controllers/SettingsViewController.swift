@@ -7,10 +7,13 @@
 //
 
 import UIKit
-
+protocol SettingViewControllerDelegate{
+    func didClickDone()
+}
 
 class SettingsViewController: FXFormViewController, ThemeViewControllerDelegate {
     var themeController : ThemeViewController!
+    var delegate:SettingViewControllerDelegate?
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -69,6 +72,7 @@ class SettingsViewController: FXFormViewController, ThemeViewControllerDelegate 
     // MARK: - Utilities
     
     func close() {
+        self.delegate?.didClickDone()
         self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
 

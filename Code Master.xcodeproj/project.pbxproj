@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		205532B41C532B160081FB82 /* font-awesome.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 205532731C532B160081FB82 /* font-awesome.min.css */; };
-		205532B51C532B160081FB82 /* ie8.css in Resources */ = {isa = PBXBuildFile; fileRef = 205532741C532B160081FB82 /* ie8.css */; };
-		205532B61C532B160081FB82 /* ie9.css in Resources */ = {isa = PBXBuildFile; fileRef = 205532751C532B160081FB82 /* ie9.css */; };
-		205532B71C532B160081FB82 /* intro.svg in Resources */ = {isa = PBXBuildFile; fileRef = 205532771C532B160081FB82 /* intro.svg */; };
-		205532B81C532B160081FB82 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 205532781C532B160081FB82 /* main.css */; };
-		205532B91C532B160081FB82 /* fontawesome-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 2055327A1C532B160081FB82 /* fontawesome-webfont.eot */; };
-		205532BA1C532B160081FB82 /* fontawesome-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2055327B1C532B160081FB82 /* fontawesome-webfont.svg */; };
-		205532BB1C532B160081FB82 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2055327C1C532B160081FB82 /* fontawesome-webfont.ttf */; };
-		205532BC1C532B160081FB82 /* fontawesome-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2055327D1C532B160081FB82 /* fontawesome-webfont.woff */; };
-		205532BD1C532B160081FB82 /* fontawesome-webfont.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 2055327E1C532B160081FB82 /* fontawesome-webfont.woff2 */; };
-		205532BE1C532B160081FB82 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2055327F1C532B160081FB82 /* FontAwesome.otf */; };
-		205532BF1C532B160081FB82 /* html5shiv.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532821C532B160081FB82 /* html5shiv.js */; };
-		205532C01C532B160081FB82 /* respond.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532831C532B160081FB82 /* respond.min.js */; };
-		205532C11C532B160081FB82 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532841C532B160081FB82 /* jquery.min.js */; };
-		205532C21C532B160081FB82 /* jquery.scrollex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532851C532B160081FB82 /* jquery.scrollex.min.js */; };
-		205532C31C532B160081FB82 /* jquery.scrolly.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532861C532B160081FB82 /* jquery.scrolly.min.js */; };
-		205532C41C532B160081FB82 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532871C532B160081FB82 /* main.js */; };
-		205532C51C532B160081FB82 /* skel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532881C532B160081FB82 /* skel.min.js */; };
-		205532C61C532B160081FB82 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 205532891C532B160081FB82 /* util.js */; };
-		205532C71C532B160081FB82 /* _page.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055328C1C532B160081FB82 /* _page.scss */; };
-		205532C81C532B160081FB82 /* _typography.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055328D1C532B160081FB82 /* _typography.scss */; };
-		205532C91C532B160081FB82 /* _box.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055328F1C532B160081FB82 /* _box.scss */; };
-		205532CA1C532B160081FB82 /* _button.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532901C532B160081FB82 /* _button.scss */; };
-		205532CB1C532B160081FB82 /* _features.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532911C532B160081FB82 /* _features.scss */; };
-		205532CC1C532B160081FB82 /* _form.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532921C532B160081FB82 /* _form.scss */; };
-		205532CD1C532B160081FB82 /* _icon.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532931C532B160081FB82 /* _icon.scss */; };
-		205532CE1C532B160081FB82 /* _image.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532941C532B160081FB82 /* _image.scss */; };
-		205532CF1C532B160081FB82 /* _list.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532951C532B160081FB82 /* _list.scss */; };
-		205532D01C532B160081FB82 /* _section.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532961C532B160081FB82 /* _section.scss */; };
-		205532D11C532B160081FB82 /* _split.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532971C532B160081FB82 /* _split.scss */; };
-		205532D21C532B160081FB82 /* _spotlights.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532981C532B160081FB82 /* _spotlights.scss */; };
-		205532D31C532B160081FB82 /* _table.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532991C532B160081FB82 /* _table.scss */; };
-		205532D41C532B160081FB82 /* _wrapper.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055329A1C532B160081FB82 /* _wrapper.scss */; };
-		205532D51C532B160081FB82 /* ie8.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055329B1C532B160081FB82 /* ie8.scss */; };
-		205532D61C532B160081FB82 /* ie9.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055329C1C532B160081FB82 /* ie9.scss */; };
-		205532D71C532B160081FB82 /* _footer.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055329E1C532B160081FB82 /* _footer.scss */; };
-		205532D81C532B160081FB82 /* _header.scss in Resources */ = {isa = PBXBuildFile; fileRef = 2055329F1C532B160081FB82 /* _header.scss */; };
-		205532D91C532B160081FB82 /* _intro.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A01C532B160081FB82 /* _intro.scss */; };
-		205532DA1C532B160081FB82 /* _sidebar.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A11C532B160081FB82 /* _sidebar.scss */; };
-		205532DB1C532B160081FB82 /* _wrapper.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A21C532B160081FB82 /* _wrapper.scss */; };
-		205532DC1C532B160081FB82 /* _functions.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A41C532B160081FB82 /* _functions.scss */; };
-		205532DD1C532B160081FB82 /* _mixins.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A51C532B160081FB82 /* _mixins.scss */; };
-		205532DE1C532B160081FB82 /* _skel.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A61C532B160081FB82 /* _skel.scss */; };
-		205532DF1C532B160081FB82 /* _vars.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A71C532B160081FB82 /* _vars.scss */; };
-		205532E01C532B160081FB82 /* main.scss in Resources */ = {isa = PBXBuildFile; fileRef = 205532A81C532B160081FB82 /* main.scss */; };
-		205532E11C532B160081FB82 /* elements.html in Resources */ = {isa = PBXBuildFile; fileRef = 205532A91C532B160081FB82 /* elements.html */; };
-		205532E21C532B160081FB82 /* generic.html in Resources */ = {isa = PBXBuildFile; fileRef = 205532AA1C532B160081FB82 /* generic.html */; };
-		205532E31C532B160081FB82 /* pic01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205532AC1C532B160081FB82 /* pic01.jpg */; };
-		205532E41C532B160081FB82 /* pic02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205532AD1C532B160081FB82 /* pic02.jpg */; };
-		205532E51C532B160081FB82 /* pic03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205532AE1C532B160081FB82 /* pic03.jpg */; };
-		205532E61C532B160081FB82 /* pic04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205532AF1C532B160081FB82 /* pic04.jpg */; };
-		205532E71C532B160081FB82 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 205532B01C532B160081FB82 /* index.html */; };
-		205532E81C532B160081FB82 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 205532B11C532B160081FB82 /* LICENSE.txt */; };
-		205532E91C532B160081FB82 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 205532B21C532B160081FB82 /* README.txt */; };
 		205532EA1C532B160081FB82 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 205532B31C532B160081FB82 /* Pods-acknowledgements.plist */; };
 		207AD8F81C51CB7E00DDFAD4 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207AD8F71C51CB7E00DDFAD4 /* LanguageViewController.swift */; };
 		207AD8FA1C51CD1B00DDFAD4 /* tmLanguages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 207AD8F91C51CD1B00DDFAD4 /* tmLanguages.bundle */; };
 		209284831C53191D00E66AF1 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209284821C53191D00E66AF1 /* ThemeViewController.swift */; };
 		20BCD8471C52F8B1000B9FAE /* tmThemes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20BCD8461C52F8B1000B9FAE /* tmThemes.bundle */; };
+		20DE35461C533742001DF6C6 /* font-awesome.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35061C533742001DF6C6 /* font-awesome.min.css */; };
+		20DE35471C533742001DF6C6 /* ie8.css in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35071C533742001DF6C6 /* ie8.css */; };
+		20DE35481C533742001DF6C6 /* ie9.css in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35081C533742001DF6C6 /* ie9.css */; };
+		20DE35491C533742001DF6C6 /* intro.svg in Resources */ = {isa = PBXBuildFile; fileRef = 20DE350A1C533742001DF6C6 /* intro.svg */; };
+		20DE354A1C533742001DF6C6 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 20DE350B1C533742001DF6C6 /* main.css */; };
+		20DE354B1C533742001DF6C6 /* fontawesome-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 20DE350D1C533742001DF6C6 /* fontawesome-webfont.eot */; };
+		20DE354C1C533742001DF6C6 /* fontawesome-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 20DE350E1C533742001DF6C6 /* fontawesome-webfont.svg */; };
+		20DE354D1C533742001DF6C6 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20DE350F1C533742001DF6C6 /* fontawesome-webfont.ttf */; };
+		20DE354E1C533742001DF6C6 /* fontawesome-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35101C533742001DF6C6 /* fontawesome-webfont.woff */; };
+		20DE354F1C533742001DF6C6 /* fontawesome-webfont.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35111C533742001DF6C6 /* fontawesome-webfont.woff2 */; };
+		20DE35501C533742001DF6C6 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35121C533742001DF6C6 /* FontAwesome.otf */; };
+		20DE35511C533742001DF6C6 /* html5shiv.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35151C533742001DF6C6 /* html5shiv.js */; };
+		20DE35521C533742001DF6C6 /* respond.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35161C533742001DF6C6 /* respond.min.js */; };
+		20DE35531C533742001DF6C6 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35171C533742001DF6C6 /* jquery.min.js */; };
+		20DE35541C533742001DF6C6 /* jquery.scrollex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35181C533742001DF6C6 /* jquery.scrollex.min.js */; };
+		20DE35551C533742001DF6C6 /* jquery.scrolly.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35191C533742001DF6C6 /* jquery.scrolly.min.js */; };
+		20DE35561C533742001DF6C6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE351A1C533742001DF6C6 /* main.js */; };
+		20DE35571C533742001DF6C6 /* skel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE351B1C533742001DF6C6 /* skel.min.js */; };
+		20DE35581C533742001DF6C6 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 20DE351C1C533742001DF6C6 /* util.js */; };
+		20DE35591C533742001DF6C6 /* _page.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE351F1C533742001DF6C6 /* _page.scss */; };
+		20DE355A1C533742001DF6C6 /* _typography.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35201C533742001DF6C6 /* _typography.scss */; };
+		20DE355B1C533742001DF6C6 /* _box.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35221C533742001DF6C6 /* _box.scss */; };
+		20DE355C1C533742001DF6C6 /* _button.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35231C533742001DF6C6 /* _button.scss */; };
+		20DE355D1C533742001DF6C6 /* _features.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35241C533742001DF6C6 /* _features.scss */; };
+		20DE355E1C533742001DF6C6 /* _form.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35251C533742001DF6C6 /* _form.scss */; };
+		20DE355F1C533742001DF6C6 /* _icon.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35261C533742001DF6C6 /* _icon.scss */; };
+		20DE35601C533742001DF6C6 /* _image.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35271C533742001DF6C6 /* _image.scss */; };
+		20DE35611C533742001DF6C6 /* _list.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35281C533742001DF6C6 /* _list.scss */; };
+		20DE35621C533742001DF6C6 /* _section.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35291C533742001DF6C6 /* _section.scss */; };
+		20DE35631C533742001DF6C6 /* _split.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE352A1C533742001DF6C6 /* _split.scss */; };
+		20DE35641C533742001DF6C6 /* _spotlights.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE352B1C533742001DF6C6 /* _spotlights.scss */; };
+		20DE35651C533742001DF6C6 /* _table.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE352C1C533742001DF6C6 /* _table.scss */; };
+		20DE35661C533743001DF6C6 /* _wrapper.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE352D1C533742001DF6C6 /* _wrapper.scss */; };
+		20DE35671C533743001DF6C6 /* ie8.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE352E1C533742001DF6C6 /* ie8.scss */; };
+		20DE35681C533743001DF6C6 /* ie9.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE352F1C533742001DF6C6 /* ie9.scss */; };
+		20DE35691C533743001DF6C6 /* _footer.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35311C533742001DF6C6 /* _footer.scss */; };
+		20DE356A1C533743001DF6C6 /* _header.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35321C533742001DF6C6 /* _header.scss */; };
+		20DE356B1C533743001DF6C6 /* _intro.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35331C533742001DF6C6 /* _intro.scss */; };
+		20DE356C1C533743001DF6C6 /* _sidebar.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35341C533742001DF6C6 /* _sidebar.scss */; };
+		20DE356D1C533743001DF6C6 /* _wrapper.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35351C533742001DF6C6 /* _wrapper.scss */; };
+		20DE356E1C533743001DF6C6 /* _functions.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35371C533742001DF6C6 /* _functions.scss */; };
+		20DE356F1C533743001DF6C6 /* _mixins.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35381C533742001DF6C6 /* _mixins.scss */; };
+		20DE35701C533743001DF6C6 /* _skel.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35391C533742001DF6C6 /* _skel.scss */; };
+		20DE35711C533743001DF6C6 /* _vars.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE353A1C533742001DF6C6 /* _vars.scss */; };
+		20DE35721C533743001DF6C6 /* main.scss in Resources */ = {isa = PBXBuildFile; fileRef = 20DE353B1C533742001DF6C6 /* main.scss */; };
+		20DE35731C533743001DF6C6 /* elements.html in Resources */ = {isa = PBXBuildFile; fileRef = 20DE353C1C533742001DF6C6 /* elements.html */; };
+		20DE35741C533743001DF6C6 /* generic.html in Resources */ = {isa = PBXBuildFile; fileRef = 20DE353D1C533742001DF6C6 /* generic.html */; };
+		20DE35751C533743001DF6C6 /* pic01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DE353F1C533742001DF6C6 /* pic01.jpg */; };
+		20DE35761C533743001DF6C6 /* pic02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35401C533742001DF6C6 /* pic02.jpg */; };
+		20DE35771C533743001DF6C6 /* pic03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35411C533742001DF6C6 /* pic03.jpg */; };
+		20DE35781C533743001DF6C6 /* pic04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35421C533742001DF6C6 /* pic04.jpg */; };
+		20DE35791C533743001DF6C6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35431C533742001DF6C6 /* index.html */; };
+		20DE357A1C533743001DF6C6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35441C533742001DF6C6 /* LICENSE.txt */; };
+		20DE357B1C533743001DF6C6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20DE35451C533742001DF6C6 /* README.txt */; };
 		20ED9E8B1C51DD5B00316A74 /* SyntaxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ED9E891C51DD5B00316A74 /* SyntaxKit.framework */; };
 		20ED9E8C1C51DD5B00316A74 /* X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ED9E8A1C51DD5B00316A74 /* X.framework */; };
 		2C57D3C6AE15707C07696D92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B492F08361222755B88DE50C /* libPods.a */; };
@@ -150,65 +150,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		205532731C532B160081FB82 /* font-awesome.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "font-awesome.min.css"; sourceTree = "<group>"; };
-		205532741C532B160081FB82 /* ie8.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ie8.css; sourceTree = "<group>"; };
-		205532751C532B160081FB82 /* ie9.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ie9.css; sourceTree = "<group>"; };
-		205532771C532B160081FB82 /* intro.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = intro.svg; sourceTree = "<group>"; };
-		205532781C532B160081FB82 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
-		2055327A1C532B160081FB82 /* fontawesome-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.eot"; sourceTree = "<group>"; };
-		2055327B1C532B160081FB82 /* fontawesome-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "fontawesome-webfont.svg"; sourceTree = "<group>"; };
-		2055327C1C532B160081FB82 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
-		2055327D1C532B160081FB82 /* fontawesome-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff"; sourceTree = "<group>"; };
-		2055327E1C532B160081FB82 /* fontawesome-webfont.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff2"; sourceTree = "<group>"; };
-		2055327F1C532B160081FB82 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
-		205532821C532B160081FB82 /* html5shiv.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = html5shiv.js; sourceTree = "<group>"; };
-		205532831C532B160081FB82 /* respond.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = respond.min.js; sourceTree = "<group>"; };
-		205532841C532B160081FB82 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
-		205532851C532B160081FB82 /* jquery.scrollex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.scrollex.min.js; sourceTree = "<group>"; };
-		205532861C532B160081FB82 /* jquery.scrolly.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.scrolly.min.js; sourceTree = "<group>"; };
-		205532871C532B160081FB82 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		205532881C532B160081FB82 /* skel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = skel.min.js; sourceTree = "<group>"; };
-		205532891C532B160081FB82 /* util.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = util.js; sourceTree = "<group>"; };
-		2055328C1C532B160081FB82 /* _page.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _page.scss; sourceTree = "<group>"; };
-		2055328D1C532B160081FB82 /* _typography.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _typography.scss; sourceTree = "<group>"; };
-		2055328F1C532B160081FB82 /* _box.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _box.scss; sourceTree = "<group>"; };
-		205532901C532B160081FB82 /* _button.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _button.scss; sourceTree = "<group>"; };
-		205532911C532B160081FB82 /* _features.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _features.scss; sourceTree = "<group>"; };
-		205532921C532B160081FB82 /* _form.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _form.scss; sourceTree = "<group>"; };
-		205532931C532B160081FB82 /* _icon.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _icon.scss; sourceTree = "<group>"; };
-		205532941C532B160081FB82 /* _image.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _image.scss; sourceTree = "<group>"; };
-		205532951C532B160081FB82 /* _list.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _list.scss; sourceTree = "<group>"; };
-		205532961C532B160081FB82 /* _section.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _section.scss; sourceTree = "<group>"; };
-		205532971C532B160081FB82 /* _split.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _split.scss; sourceTree = "<group>"; };
-		205532981C532B160081FB82 /* _spotlights.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _spotlights.scss; sourceTree = "<group>"; };
-		205532991C532B160081FB82 /* _table.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _table.scss; sourceTree = "<group>"; };
-		2055329A1C532B160081FB82 /* _wrapper.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _wrapper.scss; sourceTree = "<group>"; };
-		2055329B1C532B160081FB82 /* ie8.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ie8.scss; sourceTree = "<group>"; };
-		2055329C1C532B160081FB82 /* ie9.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ie9.scss; sourceTree = "<group>"; };
-		2055329E1C532B160081FB82 /* _footer.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _footer.scss; sourceTree = "<group>"; };
-		2055329F1C532B160081FB82 /* _header.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _header.scss; sourceTree = "<group>"; };
-		205532A01C532B160081FB82 /* _intro.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _intro.scss; sourceTree = "<group>"; };
-		205532A11C532B160081FB82 /* _sidebar.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _sidebar.scss; sourceTree = "<group>"; };
-		205532A21C532B160081FB82 /* _wrapper.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _wrapper.scss; sourceTree = "<group>"; };
-		205532A41C532B160081FB82 /* _functions.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _functions.scss; sourceTree = "<group>"; };
-		205532A51C532B160081FB82 /* _mixins.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _mixins.scss; sourceTree = "<group>"; };
-		205532A61C532B160081FB82 /* _skel.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _skel.scss; sourceTree = "<group>"; };
-		205532A71C532B160081FB82 /* _vars.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _vars.scss; sourceTree = "<group>"; };
-		205532A81C532B160081FB82 /* main.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.scss; sourceTree = "<group>"; };
-		205532A91C532B160081FB82 /* elements.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = elements.html; sourceTree = "<group>"; };
-		205532AA1C532B160081FB82 /* generic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = generic.html; sourceTree = "<group>"; };
-		205532AC1C532B160081FB82 /* pic01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic01.jpg; sourceTree = "<group>"; };
-		205532AD1C532B160081FB82 /* pic02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic02.jpg; sourceTree = "<group>"; };
-		205532AE1C532B160081FB82 /* pic03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic03.jpg; sourceTree = "<group>"; };
-		205532AF1C532B160081FB82 /* pic04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic04.jpg; sourceTree = "<group>"; };
-		205532B01C532B160081FB82 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		205532B11C532B160081FB82 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		205532B21C532B160081FB82 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		205532B31C532B160081FB82 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		207AD8F71C51CB7E00DDFAD4 /* LanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		207AD8F91C51CD1B00DDFAD4 /* tmLanguages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = tmLanguages.bundle; sourceTree = "<group>"; };
 		209284821C53191D00E66AF1 /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		20BCD8461C52F8B1000B9FAE /* tmThemes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = tmThemes.bundle; sourceTree = "<group>"; };
+		20DE35061C533742001DF6C6 /* font-awesome.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "font-awesome.min.css"; sourceTree = "<group>"; };
+		20DE35071C533742001DF6C6 /* ie8.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ie8.css; sourceTree = "<group>"; };
+		20DE35081C533742001DF6C6 /* ie9.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ie9.css; sourceTree = "<group>"; };
+		20DE350A1C533742001DF6C6 /* intro.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = intro.svg; sourceTree = "<group>"; };
+		20DE350B1C533742001DF6C6 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		20DE350D1C533742001DF6C6 /* fontawesome-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.eot"; sourceTree = "<group>"; };
+		20DE350E1C533742001DF6C6 /* fontawesome-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "fontawesome-webfont.svg"; sourceTree = "<group>"; };
+		20DE350F1C533742001DF6C6 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		20DE35101C533742001DF6C6 /* fontawesome-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff"; sourceTree = "<group>"; };
+		20DE35111C533742001DF6C6 /* fontawesome-webfont.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff2"; sourceTree = "<group>"; };
+		20DE35121C533742001DF6C6 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		20DE35151C533742001DF6C6 /* html5shiv.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = html5shiv.js; sourceTree = "<group>"; };
+		20DE35161C533742001DF6C6 /* respond.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = respond.min.js; sourceTree = "<group>"; };
+		20DE35171C533742001DF6C6 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		20DE35181C533742001DF6C6 /* jquery.scrollex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.scrollex.min.js; sourceTree = "<group>"; };
+		20DE35191C533742001DF6C6 /* jquery.scrolly.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.scrolly.min.js; sourceTree = "<group>"; };
+		20DE351A1C533742001DF6C6 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		20DE351B1C533742001DF6C6 /* skel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = skel.min.js; sourceTree = "<group>"; };
+		20DE351C1C533742001DF6C6 /* util.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = util.js; sourceTree = "<group>"; };
+		20DE351F1C533742001DF6C6 /* _page.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _page.scss; sourceTree = "<group>"; };
+		20DE35201C533742001DF6C6 /* _typography.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _typography.scss; sourceTree = "<group>"; };
+		20DE35221C533742001DF6C6 /* _box.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _box.scss; sourceTree = "<group>"; };
+		20DE35231C533742001DF6C6 /* _button.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _button.scss; sourceTree = "<group>"; };
+		20DE35241C533742001DF6C6 /* _features.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _features.scss; sourceTree = "<group>"; };
+		20DE35251C533742001DF6C6 /* _form.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _form.scss; sourceTree = "<group>"; };
+		20DE35261C533742001DF6C6 /* _icon.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _icon.scss; sourceTree = "<group>"; };
+		20DE35271C533742001DF6C6 /* _image.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _image.scss; sourceTree = "<group>"; };
+		20DE35281C533742001DF6C6 /* _list.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _list.scss; sourceTree = "<group>"; };
+		20DE35291C533742001DF6C6 /* _section.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _section.scss; sourceTree = "<group>"; };
+		20DE352A1C533742001DF6C6 /* _split.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _split.scss; sourceTree = "<group>"; };
+		20DE352B1C533742001DF6C6 /* _spotlights.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _spotlights.scss; sourceTree = "<group>"; };
+		20DE352C1C533742001DF6C6 /* _table.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _table.scss; sourceTree = "<group>"; };
+		20DE352D1C533742001DF6C6 /* _wrapper.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _wrapper.scss; sourceTree = "<group>"; };
+		20DE352E1C533742001DF6C6 /* ie8.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ie8.scss; sourceTree = "<group>"; };
+		20DE352F1C533742001DF6C6 /* ie9.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ie9.scss; sourceTree = "<group>"; };
+		20DE35311C533742001DF6C6 /* _footer.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _footer.scss; sourceTree = "<group>"; };
+		20DE35321C533742001DF6C6 /* _header.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _header.scss; sourceTree = "<group>"; };
+		20DE35331C533742001DF6C6 /* _intro.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _intro.scss; sourceTree = "<group>"; };
+		20DE35341C533742001DF6C6 /* _sidebar.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _sidebar.scss; sourceTree = "<group>"; };
+		20DE35351C533742001DF6C6 /* _wrapper.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _wrapper.scss; sourceTree = "<group>"; };
+		20DE35371C533742001DF6C6 /* _functions.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _functions.scss; sourceTree = "<group>"; };
+		20DE35381C533742001DF6C6 /* _mixins.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _mixins.scss; sourceTree = "<group>"; };
+		20DE35391C533742001DF6C6 /* _skel.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _skel.scss; sourceTree = "<group>"; };
+		20DE353A1C533742001DF6C6 /* _vars.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _vars.scss; sourceTree = "<group>"; };
+		20DE353B1C533742001DF6C6 /* main.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.scss; sourceTree = "<group>"; };
+		20DE353C1C533742001DF6C6 /* elements.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = elements.html; sourceTree = "<group>"; };
+		20DE353D1C533742001DF6C6 /* generic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = generic.html; sourceTree = "<group>"; };
+		20DE353F1C533742001DF6C6 /* pic01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic01.jpg; sourceTree = "<group>"; };
+		20DE35401C533742001DF6C6 /* pic02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic02.jpg; sourceTree = "<group>"; };
+		20DE35411C533742001DF6C6 /* pic03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic03.jpg; sourceTree = "<group>"; };
+		20DE35421C533742001DF6C6 /* pic04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic04.jpg; sourceTree = "<group>"; };
+		20DE35431C533742001DF6C6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		20DE35441C533742001DF6C6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		20DE35451C533742001DF6C6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		20ED9E891C51DD5B00316A74 /* SyntaxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SyntaxKit.framework; path = Carthage/Build/iOS/SyntaxKit.framework; sourceTree = "<group>"; };
 		20ED9E8A1C51DD5B00316A74 /* X.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = X.framework; path = Carthage/Build/iOS/X.framework; sourceTree = "<group>"; };
 		2376D4B854B181824E65A52E /* Pods-Edhita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edhita.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Edhita/Pods-Edhita.debug.xcconfig"; sourceTree = "<group>"; };
@@ -340,165 +340,165 @@
 		2055326F1C532B160081FB82 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				205532701C532B160081FB82 /* bootstrap */,
+				20DE35031C533742001DF6C6 /* bootstrap */,
 				205532B31C532B160081FB82 /* Pods-acknowledgements.plist */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		205532701C532B160081FB82 /* bootstrap */ = {
+		20DE35031C533742001DF6C6 /* bootstrap */ = {
 			isa = PBXGroup;
 			children = (
-				205532711C532B160081FB82 /* assets */,
-				205532A91C532B160081FB82 /* elements.html */,
-				205532AA1C532B160081FB82 /* generic.html */,
-				205532AB1C532B160081FB82 /* images */,
-				205532B01C532B160081FB82 /* index.html */,
-				205532B11C532B160081FB82 /* LICENSE.txt */,
-				205532B21C532B160081FB82 /* README.txt */,
+				20DE35041C533742001DF6C6 /* assets */,
+				20DE353C1C533742001DF6C6 /* elements.html */,
+				20DE353D1C533742001DF6C6 /* generic.html */,
+				20DE353E1C533742001DF6C6 /* images */,
+				20DE35431C533742001DF6C6 /* index.html */,
+				20DE35441C533742001DF6C6 /* LICENSE.txt */,
+				20DE35451C533742001DF6C6 /* README.txt */,
 			);
 			path = bootstrap;
 			sourceTree = "<group>";
 		};
-		205532711C532B160081FB82 /* assets */ = {
+		20DE35041C533742001DF6C6 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				205532721C532B160081FB82 /* css */,
-				205532791C532B160081FB82 /* fonts */,
-				205532801C532B160081FB82 /* js */,
-				2055328A1C532B160081FB82 /* sass */,
+				20DE35051C533742001DF6C6 /* css */,
+				20DE350C1C533742001DF6C6 /* fonts */,
+				20DE35131C533742001DF6C6 /* js */,
+				20DE351D1C533742001DF6C6 /* sass */,
 			);
 			path = assets;
 			sourceTree = "<group>";
 		};
-		205532721C532B160081FB82 /* css */ = {
+		20DE35051C533742001DF6C6 /* css */ = {
 			isa = PBXGroup;
 			children = (
-				205532731C532B160081FB82 /* font-awesome.min.css */,
-				205532741C532B160081FB82 /* ie8.css */,
-				205532751C532B160081FB82 /* ie9.css */,
-				205532761C532B160081FB82 /* images */,
-				205532781C532B160081FB82 /* main.css */,
+				20DE35061C533742001DF6C6 /* font-awesome.min.css */,
+				20DE35071C533742001DF6C6 /* ie8.css */,
+				20DE35081C533742001DF6C6 /* ie9.css */,
+				20DE35091C533742001DF6C6 /* images */,
+				20DE350B1C533742001DF6C6 /* main.css */,
 			);
 			path = css;
 			sourceTree = "<group>";
 		};
-		205532761C532B160081FB82 /* images */ = {
+		20DE35091C533742001DF6C6 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				205532771C532B160081FB82 /* intro.svg */,
+				20DE350A1C533742001DF6C6 /* intro.svg */,
 			);
 			path = images;
 			sourceTree = "<group>";
 		};
-		205532791C532B160081FB82 /* fonts */ = {
+		20DE350C1C533742001DF6C6 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				2055327A1C532B160081FB82 /* fontawesome-webfont.eot */,
-				2055327B1C532B160081FB82 /* fontawesome-webfont.svg */,
-				2055327C1C532B160081FB82 /* fontawesome-webfont.ttf */,
-				2055327D1C532B160081FB82 /* fontawesome-webfont.woff */,
-				2055327E1C532B160081FB82 /* fontawesome-webfont.woff2 */,
-				2055327F1C532B160081FB82 /* FontAwesome.otf */,
+				20DE350D1C533742001DF6C6 /* fontawesome-webfont.eot */,
+				20DE350E1C533742001DF6C6 /* fontawesome-webfont.svg */,
+				20DE350F1C533742001DF6C6 /* fontawesome-webfont.ttf */,
+				20DE35101C533742001DF6C6 /* fontawesome-webfont.woff */,
+				20DE35111C533742001DF6C6 /* fontawesome-webfont.woff2 */,
+				20DE35121C533742001DF6C6 /* FontAwesome.otf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		205532801C532B160081FB82 /* js */ = {
+		20DE35131C533742001DF6C6 /* js */ = {
 			isa = PBXGroup;
 			children = (
-				205532811C532B160081FB82 /* ie */,
-				205532841C532B160081FB82 /* jquery.min.js */,
-				205532851C532B160081FB82 /* jquery.scrollex.min.js */,
-				205532861C532B160081FB82 /* jquery.scrolly.min.js */,
-				205532871C532B160081FB82 /* main.js */,
-				205532881C532B160081FB82 /* skel.min.js */,
-				205532891C532B160081FB82 /* util.js */,
+				20DE35141C533742001DF6C6 /* ie */,
+				20DE35171C533742001DF6C6 /* jquery.min.js */,
+				20DE35181C533742001DF6C6 /* jquery.scrollex.min.js */,
+				20DE35191C533742001DF6C6 /* jquery.scrolly.min.js */,
+				20DE351A1C533742001DF6C6 /* main.js */,
+				20DE351B1C533742001DF6C6 /* skel.min.js */,
+				20DE351C1C533742001DF6C6 /* util.js */,
 			);
 			path = js;
 			sourceTree = "<group>";
 		};
-		205532811C532B160081FB82 /* ie */ = {
+		20DE35141C533742001DF6C6 /* ie */ = {
 			isa = PBXGroup;
 			children = (
-				205532821C532B160081FB82 /* html5shiv.js */,
-				205532831C532B160081FB82 /* respond.min.js */,
+				20DE35151C533742001DF6C6 /* html5shiv.js */,
+				20DE35161C533742001DF6C6 /* respond.min.js */,
 			);
 			path = ie;
 			sourceTree = "<group>";
 		};
-		2055328A1C532B160081FB82 /* sass */ = {
+		20DE351D1C533742001DF6C6 /* sass */ = {
 			isa = PBXGroup;
 			children = (
-				2055328B1C532B160081FB82 /* base */,
-				2055328E1C532B160081FB82 /* components */,
-				2055329B1C532B160081FB82 /* ie8.scss */,
-				2055329C1C532B160081FB82 /* ie9.scss */,
-				2055329D1C532B160081FB82 /* layout */,
-				205532A31C532B160081FB82 /* libs */,
-				205532A81C532B160081FB82 /* main.scss */,
+				20DE351E1C533742001DF6C6 /* base */,
+				20DE35211C533742001DF6C6 /* components */,
+				20DE352E1C533742001DF6C6 /* ie8.scss */,
+				20DE352F1C533742001DF6C6 /* ie9.scss */,
+				20DE35301C533742001DF6C6 /* layout */,
+				20DE35361C533742001DF6C6 /* libs */,
+				20DE353B1C533742001DF6C6 /* main.scss */,
 			);
 			path = sass;
 			sourceTree = "<group>";
 		};
-		2055328B1C532B160081FB82 /* base */ = {
+		20DE351E1C533742001DF6C6 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				2055328C1C532B160081FB82 /* _page.scss */,
-				2055328D1C532B160081FB82 /* _typography.scss */,
+				20DE351F1C533742001DF6C6 /* _page.scss */,
+				20DE35201C533742001DF6C6 /* _typography.scss */,
 			);
 			path = base;
 			sourceTree = "<group>";
 		};
-		2055328E1C532B160081FB82 /* components */ = {
+		20DE35211C533742001DF6C6 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				2055328F1C532B160081FB82 /* _box.scss */,
-				205532901C532B160081FB82 /* _button.scss */,
-				205532911C532B160081FB82 /* _features.scss */,
-				205532921C532B160081FB82 /* _form.scss */,
-				205532931C532B160081FB82 /* _icon.scss */,
-				205532941C532B160081FB82 /* _image.scss */,
-				205532951C532B160081FB82 /* _list.scss */,
-				205532961C532B160081FB82 /* _section.scss */,
-				205532971C532B160081FB82 /* _split.scss */,
-				205532981C532B160081FB82 /* _spotlights.scss */,
-				205532991C532B160081FB82 /* _table.scss */,
-				2055329A1C532B160081FB82 /* _wrapper.scss */,
+				20DE35221C533742001DF6C6 /* _box.scss */,
+				20DE35231C533742001DF6C6 /* _button.scss */,
+				20DE35241C533742001DF6C6 /* _features.scss */,
+				20DE35251C533742001DF6C6 /* _form.scss */,
+				20DE35261C533742001DF6C6 /* _icon.scss */,
+				20DE35271C533742001DF6C6 /* _image.scss */,
+				20DE35281C533742001DF6C6 /* _list.scss */,
+				20DE35291C533742001DF6C6 /* _section.scss */,
+				20DE352A1C533742001DF6C6 /* _split.scss */,
+				20DE352B1C533742001DF6C6 /* _spotlights.scss */,
+				20DE352C1C533742001DF6C6 /* _table.scss */,
+				20DE352D1C533742001DF6C6 /* _wrapper.scss */,
 			);
 			path = components;
 			sourceTree = "<group>";
 		};
-		2055329D1C532B160081FB82 /* layout */ = {
+		20DE35301C533742001DF6C6 /* layout */ = {
 			isa = PBXGroup;
 			children = (
-				2055329E1C532B160081FB82 /* _footer.scss */,
-				2055329F1C532B160081FB82 /* _header.scss */,
-				205532A01C532B160081FB82 /* _intro.scss */,
-				205532A11C532B160081FB82 /* _sidebar.scss */,
-				205532A21C532B160081FB82 /* _wrapper.scss */,
+				20DE35311C533742001DF6C6 /* _footer.scss */,
+				20DE35321C533742001DF6C6 /* _header.scss */,
+				20DE35331C533742001DF6C6 /* _intro.scss */,
+				20DE35341C533742001DF6C6 /* _sidebar.scss */,
+				20DE35351C533742001DF6C6 /* _wrapper.scss */,
 			);
 			path = layout;
 			sourceTree = "<group>";
 		};
-		205532A31C532B160081FB82 /* libs */ = {
+		20DE35361C533742001DF6C6 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				205532A41C532B160081FB82 /* _functions.scss */,
-				205532A51C532B160081FB82 /* _mixins.scss */,
-				205532A61C532B160081FB82 /* _skel.scss */,
-				205532A71C532B160081FB82 /* _vars.scss */,
+				20DE35371C533742001DF6C6 /* _functions.scss */,
+				20DE35381C533742001DF6C6 /* _mixins.scss */,
+				20DE35391C533742001DF6C6 /* _skel.scss */,
+				20DE353A1C533742001DF6C6 /* _vars.scss */,
 			);
 			path = libs;
 			sourceTree = "<group>";
 		};
-		205532AB1C532B160081FB82 /* images */ = {
+		20DE353E1C533742001DF6C6 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				205532AC1C532B160081FB82 /* pic01.jpg */,
-				205532AD1C532B160081FB82 /* pic02.jpg */,
-				205532AE1C532B160081FB82 /* pic03.jpg */,
-				205532AF1C532B160081FB82 /* pic04.jpg */,
+				20DE353F1C533742001DF6C6 /* pic01.jpg */,
+				20DE35401C533742001DF6C6 /* pic02.jpg */,
+				20DE35411C533742001DF6C6 /* pic03.jpg */,
+				20DE35421C533742001DF6C6 /* pic04.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -862,122 +862,122 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				205532C61C532B160081FB82 /* util.js in Resources */,
-				205532D01C532B160081FB82 /* _section.scss in Resources */,
+				20DE354E1C533742001DF6C6 /* fontawesome-webfont.woff in Resources */,
+				20DE35751C533743001DF6C6 /* pic01.jpg in Resources */,
+				20DE356E1C533743001DF6C6 /* _functions.scss in Resources */,
 				4D2576571C4AD27000AA7F95 /* _typography.scss in Resources */,
 				4D2576721C4AD27000AA7F95 /* pic01.jpg in Resources */,
+				20DE35481C533742001DF6C6 /* ie9.css in Resources */,
+				20DE355F1C533742001DF6C6 /* _icon.scss in Resources */,
+				20DE35771C533743001DF6C6 /* pic03.jpg in Resources */,
 				207AD8FA1C51CD1B00DDFAD4 /* tmLanguages.bundle in Resources */,
-				205532B71C532B160081FB82 /* intro.svg in Resources */,
-				205532D21C532B160081FB82 /* _spotlights.scss in Resources */,
+				20DE35721C533743001DF6C6 /* main.scss in Resources */,
+				20DE35461C533742001DF6C6 /* font-awesome.min.css in Resources */,
+				20DE35471C533742001DF6C6 /* ie8.css in Resources */,
+				20DE35571C533742001DF6C6 /* skel.min.js in Resources */,
+				20DE35741C533743001DF6C6 /* generic.html in Resources */,
 				4D25766B1C4AD27000AA7F95 /* _functions.scss in Resources */,
-				205532DB1C532B160081FB82 /* _wrapper.scss in Resources */,
+				20DE35621C533742001DF6C6 /* _section.scss in Resources */,
 				4D25768F1C4AD27000AA7F95 /* Launch Screen.storyboard in Resources */,
-				205532B61C532B160081FB82 /* ie9.css in Resources */,
-				205532D11C532B160081FB82 /* _split.scss in Resources */,
 				4D2576591C4AD27000AA7F95 /* _button.scss in Resources */,
+				20DE354C1C533742001DF6C6 /* fontawesome-webfont.svg in Resources */,
+				20DE35701C533743001DF6C6 /* _skel.scss in Resources */,
 				4D25765C1C4AD27000AA7F95 /* _icon.scss in Resources */,
 				4D25764B1C4AD27000AA7F95 /* fontawesome-webfont.woff in Resources */,
+				20DE35541C533742001DF6C6 /* jquery.scrollex.min.js in Resources */,
+				20DE355B1C533742001DF6C6 /* _box.scss in Resources */,
 				4D2576611C4AD27000AA7F95 /* _spotlights.scss in Resources */,
 				4D2576431C4AD27000AA7F95 /* font-awesome.min.css in Resources */,
+				20DE356F1C533743001DF6C6 /* _mixins.scss in Resources */,
+				20DE35711C533743001DF6C6 /* _vars.scss in Resources */,
 				4D2576641C4AD27000AA7F95 /* ie8.scss in Resources */,
-				205532DE1C532B160081FB82 /* _skel.scss in Resources */,
+				20DE356A1C533743001DF6C6 /* _header.scss in Resources */,
+				20DE35561C533742001DF6C6 /* main.js in Resources */,
+				20DE355A1C533742001DF6C6 /* _typography.scss in Resources */,
 				20BCD8471C52F8B1000B9FAE /* tmThemes.bundle in Resources */,
-				205532BE1C532B160081FB82 /* FontAwesome.otf in Resources */,
-				205532D41C532B160081FB82 /* _wrapper.scss in Resources */,
-				205532DF1C532B160081FB82 /* _vars.scss in Resources */,
 				4D2576881C4AD27000AA7F95 /* Pods-acknowledgements.plist in Resources */,
-				205532E21C532B160081FB82 /* generic.html in Resources */,
 				4D2576671C4AD27000AA7F95 /* _header.scss in Resources */,
 				4D25766F1C4AD27000AA7F95 /* main.scss in Resources */,
 				205532EA1C532B160081FB82 /* Pods-acknowledgements.plist in Resources */,
-				205532C71C532B160081FB82 /* _page.scss in Resources */,
 				4D25765B1C4AD27000AA7F95 /* _form.scss in Resources */,
-				205532E91C532B160081FB82 /* README.txt in Resources */,
 				4D2576691C4AD27000AA7F95 /* _sidebar.scss in Resources */,
+				20DE35661C533743001DF6C6 /* _wrapper.scss in Resources */,
 				4D25764E1C4AD27000AA7F95 /* html5shiv.js in Resources */,
-				205532CC1C532B160081FB82 /* _form.scss in Resources */,
-				205532BC1C532B160081FB82 /* fontawesome-webfont.woff in Resources */,
-				205532C11C532B160081FB82 /* jquery.min.js in Resources */,
-				205532C01C532B160081FB82 /* respond.min.js in Resources */,
-				205532E11C532B160081FB82 /* elements.html in Resources */,
-				205532B81C532B160081FB82 /* main.css in Resources */,
-				205532D81C532B160081FB82 /* _header.scss in Resources */,
 				4D2576681C4AD27000AA7F95 /* _intro.scss in Resources */,
+				20DE35501C533742001DF6C6 /* FontAwesome.otf in Resources */,
 				4D2576441C4AD27000AA7F95 /* ie8.css in Resources */,
 				4D25765D1C4AD27000AA7F95 /* _image.scss in Resources */,
-				205532E71C532B160081FB82 /* index.html in Resources */,
-				205532E81C532B160081FB82 /* LICENSE.txt in Resources */,
-				205532D51C532B160081FB82 /* ie8.scss in Resources */,
-				205532CE1C532B160081FB82 /* _image.scss in Resources */,
-				205532CB1C532B160081FB82 /* _features.scss in Resources */,
-				205532E41C532B160081FB82 /* pic02.jpg in Resources */,
 				4D25766C1C4AD27000AA7F95 /* _mixins.scss in Resources */,
+				20DE35551C533742001DF6C6 /* jquery.scrolly.min.js in Resources */,
 				4D25766A1C4AD27000AA7F95 /* _wrapper.scss in Resources */,
+				20DE35531C533742001DF6C6 /* jquery.min.js in Resources */,
+				20DE35691C533743001DF6C6 /* _footer.scss in Resources */,
+				20DE35521C533742001DF6C6 /* respond.min.js in Resources */,
 				4D2576631C4AD27000AA7F95 /* _wrapper.scss in Resources */,
 				4D2576711C4AD27000AA7F95 /* generic.html in Resources */,
-				205532D71C532B160081FB82 /* _footer.scss in Resources */,
 				4D2576451C4AD27000AA7F95 /* ie9.css in Resources */,
-				205532C41C532B160081FB82 /* main.js in Resources */,
+				20DE354A1C533742001DF6C6 /* main.css in Resources */,
 				4D2576761C4AD27000AA7F95 /* index.html in Resources */,
-				205532E51C532B160081FB82 /* pic03.jpg in Resources */,
-				205532BB1C532B160081FB82 /* fontawesome-webfont.ttf in Resources */,
 				4D25764F1C4AD27000AA7F95 /* respond.min.js in Resources */,
+				20DE35591C533742001DF6C6 /* _page.scss in Resources */,
+				20DE356C1C533743001DF6C6 /* _sidebar.scss in Resources */,
 				4D2576471C4AD27000AA7F95 /* main.css in Resources */,
-				205532C21C532B160081FB82 /* jquery.scrollex.min.js in Resources */,
+				20DE35761C533743001DF6C6 /* pic02.jpg in Resources */,
 				4D2576701C4AD27000AA7F95 /* elements.html in Resources */,
+				20DE356D1C533743001DF6C6 /* _wrapper.scss in Resources */,
 				4D25765A1C4AD27000AA7F95 /* _features.scss in Resources */,
+				20DE354D1C533742001DF6C6 /* fontawesome-webfont.ttf in Resources */,
 				4D2576551C4AD27000AA7F95 /* util.js in Resources */,
 				4D2576741C4AD27000AA7F95 /* pic03.jpg in Resources */,
-				205532BD1C532B160081FB82 /* fontawesome-webfont.woff2 in Resources */,
+				20DE355C1C533742001DF6C6 /* _button.scss in Resources */,
 				4D25765F1C4AD27000AA7F95 /* _section.scss in Resources */,
+				20DE35671C533743001DF6C6 /* ie8.scss in Resources */,
+				20DE357B1C533743001DF6C6 /* README.txt in Resources */,
 				4D2576491C4AD27000AA7F95 /* fontawesome-webfont.svg in Resources */,
+				20DE35681C533743001DF6C6 /* ie9.scss in Resources */,
+				20DE35631C533742001DF6C6 /* _split.scss in Resources */,
+				20DE355D1C533742001DF6C6 /* _features.scss in Resources */,
 				4D2576941C4AD27000AA7F95 /* SourceCodePro-Regular.ttf in Resources */,
 				4D25766D1C4AD27000AA7F95 /* _skel.scss in Resources */,
-				205532C81C532B160081FB82 /* _typography.scss in Resources */,
-				205532DD1C532B160081FB82 /* _mixins.scss in Resources */,
-				205532C31C532B160081FB82 /* jquery.scrolly.min.js in Resources */,
 				4D25766E1C4AD27000AA7F95 /* _vars.scss in Resources */,
+				20DE35731C533743001DF6C6 /* elements.html in Resources */,
 				4D2576511C4AD27000AA7F95 /* jquery.scrollex.min.js in Resources */,
+				20DE35781C533743001DF6C6 /* pic04.jpg in Resources */,
 				4D25764C1C4AD27000AA7F95 /* fontawesome-webfont.woff2 in Resources */,
-				205532C51C532B160081FB82 /* skel.min.js in Resources */,
 				4D25768D1C4AD27000AA7F95 /* Images.xcassets in Resources */,
-				205532B91C532B160081FB82 /* fontawesome-webfont.eot in Resources */,
 				4D2576781C4AD27000AA7F95 /* README.txt in Resources */,
-				205532CD1C532B160081FB82 /* _icon.scss in Resources */,
 				4D2576731C4AD27000AA7F95 /* pic02.jpg in Resources */,
-				205532BA1C532B160081FB82 /* fontawesome-webfont.svg in Resources */,
-				205532DA1C532B160081FB82 /* _sidebar.scss in Resources */,
 				4D2576531C4AD27000AA7F95 /* main.js in Resources */,
 				4D25765E1C4AD27000AA7F95 /* _list.scss in Resources */,
+				20DE35581C533742001DF6C6 /* util.js in Resources */,
 				4D2576561C4AD27000AA7F95 /* _page.scss in Resources */,
-				205532E01C532B160081FB82 /* main.scss in Resources */,
-				205532B41C532B160081FB82 /* font-awesome.min.css in Resources */,
-				205532D31C532B160081FB82 /* _table.scss in Resources */,
 				4D2576581C4AD27000AA7F95 /* _box.scss in Resources */,
-				205532E61C532B160081FB82 /* pic04.jpg in Resources */,
 				4D25768C1C4AD27000AA7F95 /* Localizable.strings in Resources */,
 				4D2576501C4AD27000AA7F95 /* jquery.min.js in Resources */,
+				20DE35601C533742001DF6C6 /* _image.scss in Resources */,
 				4D2576771C4AD27000AA7F95 /* LICENSE.txt in Resources */,
-				205532C91C532B160081FB82 /* _box.scss in Resources */,
+				20DE35791C533743001DF6C6 /* index.html in Resources */,
+				20DE356B1C533743001DF6C6 /* _intro.scss in Resources */,
+				20DE354B1C533742001DF6C6 /* fontawesome-webfont.eot in Resources */,
+				20DE35651C533742001DF6C6 /* _table.scss in Resources */,
 				4D25764D1C4AD27000AA7F95 /* FontAwesome.otf in Resources */,
+				20DE35611C533742001DF6C6 /* _list.scss in Resources */,
 				4D25764A1C4AD27000AA7F95 /* fontawesome-webfont.ttf in Resources */,
+				20DE354F1C533742001DF6C6 /* fontawesome-webfont.woff2 in Resources */,
 				4D2576621C4AD27000AA7F95 /* _table.scss in Resources */,
-				205532CA1C532B160081FB82 /* _button.scss in Resources */,
-				205532BF1C532B160081FB82 /* html5shiv.js in Resources */,
 				4D2576751C4AD27000AA7F95 /* pic04.jpg in Resources */,
 				4D2576461C4AD27000AA7F95 /* intro.svg in Resources */,
 				4D2576601C4AD27000AA7F95 /* _split.scss in Resources */,
+				20DE35511C533742001DF6C6 /* html5shiv.js in Resources */,
 				4D2576661C4AD27000AA7F95 /* _footer.scss in Resources */,
-				205532D61C532B160081FB82 /* ie9.scss in Resources */,
-				205532E31C532B160081FB82 /* pic01.jpg in Resources */,
 				4D2576541C4AD27000AA7F95 /* skel.min.js in Resources */,
+				20DE357A1C533743001DF6C6 /* LICENSE.txt in Resources */,
+				20DE35641C533742001DF6C6 /* _spotlights.scss in Resources */,
 				4D2576521C4AD27000AA7F95 /* jquery.scrolly.min.js in Resources */,
-				205532CF1C532B160081FB82 /* _list.scss in Resources */,
-				205532DC1C532B160081FB82 /* _functions.scss in Resources */,
-				205532B51C532B160081FB82 /* ie8.css in Resources */,
-				205532D91C532B160081FB82 /* _intro.scss in Resources */,
 				4D2576481C4AD27000AA7F95 /* fontawesome-webfont.eot in Resources */,
 				4D2576651C4AD27000AA7F95 /* ie9.scss in Resources */,
+				20DE355E1C533742001DF6C6 /* _form.scss in Resources */,
+				20DE35491C533742001DF6C6 /* intro.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

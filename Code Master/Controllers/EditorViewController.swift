@@ -13,7 +13,7 @@ public struct Defaults {
     static let themeKey = "Defaults.Theme"
 }
 
-class EditorViewController: UIViewController, EDHFinderListViewControllerDelegate, MFMailComposeViewControllerDelegate,LanguageViewControllerDelegate {
+class EditorViewController: UIViewController, EDHFinderListViewControllerDelegate, MFMailComposeViewControllerDelegate,SettingViewControllerDelegate,LanguageViewControllerDelegate {
 
     let kToolbarIconSize: CGFloat = 30.0
 
@@ -26,7 +26,8 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
     var editorView: EditorView!
     var plainTextButton:UIBarButtonItem!
     var languageController : LanguageViewController!
-
+    var formController:SettingsViewController?;
+    
     var finderItem: EDHFinderItem? {
         didSet {
             self.configureView()
@@ -256,10 +257,11 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
     }
 
     func settingsItemDidTap(sender: AnyObject) {
-        let formController = SettingsViewController()
-        let navController = UINavigationController(rootViewController: formController)
-        navController.modalPresentationStyle = .FormSheet
-        self.presentViewController(navController, animated: true, completion: nil)
+        self.formController = SettingsViewController()
+        self.formController?.delegate = self
+        let navController = UINavigationController(rootViewController: self.formController!) as? UINavigationController
+        navController!.modalPresentationStyle = .FormSheet
+        self.presentViewController(navController!, animated: true, completion: nil)
     }
 
     func modeControlDidChange(sender: AnyObject) {
@@ -276,6 +278,12 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
         default:
             break
         }
+    }
+    
+    // MARK: - SettingViewControllerDelegate
+    
+    func didClickDone() {
+        self.editorView.updateSyntaxKit()
     }
     
     // MARK: - EDHFinderListViewControllerDelegate
