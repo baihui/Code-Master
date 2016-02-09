@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         var language:String? = NSUserDefaults.standardUserDefaults().objectForKey(Defaults.languageKey) as? String
         if language == nil {
-            language = "Plain text"
+            language = "Plain Text"
             NSUserDefaults.standardUserDefaults().setObject(language, forKey: Defaults.languageKey)
             NSUserDefaults.standardUserDefaults().synchronize()
         }

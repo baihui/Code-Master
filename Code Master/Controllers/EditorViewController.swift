@@ -75,7 +75,7 @@ class EditorViewController: UIViewController, EDHFinderListViewControllerDelegat
         self.shareItem = UIBarButtonItem(image: shareIcon, style: .Plain, target: self, action: "shareItemDidTap:")
         self.shareItem.image = shareIcon
         
-        // Share Button
+        // Settings Button
         let settingsIcon: UIImage
         let settingsImage = "Settings"
         settingsIcon = UIImage(named: settingsImage)!
